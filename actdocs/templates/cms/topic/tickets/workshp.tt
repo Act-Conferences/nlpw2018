@@ -1,0 +1,23 @@
+[%
+    SET CMS.item = {
+        title = "WORKSHOP",
+        extra = "Friends of Perl",
+        price = 65,
+        forms = { # be warned, these values are in Act.ini
+            'product_registration'  = "registration",
+            'price-registration'    = "2"
+        },
+        offer = [
+           "FRIDAY", "…", "TECH-TALKS", "Coffee", "Lunch", "After Party", "T-Shirt",
+        ],
+        intro =
+           "The technical talks<br>funny, deep and interesting",
+        texts = [
+           "The Dutch Perl Workshop, NLPW, is originally a day where people do
+            all kinds off presentations and socialise with each other.",
+           "To keep things affordable for everyone, please consider buiying the
+            regular ticket"
+        ],
+        badge = "BEST CHOICE",
+    }
+%]

@@ -1,6 +1,6 @@
 <section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-after-navbar" id="banner">
 
-  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);">
+  <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(82, 0, 175);">
   </div>
 
   <div class="mbr-table mbr-table-full">
@@ -10,32 +10,32 @@
         <div class="mbr-section row">
           <div class="mbr-table-md-up">
             
-            <div class="mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-5">
+            <div class="mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-6">
               <div class="mbr-figure">
-                <img class="hidden-sm-down" src="[% make_uri_info('img', 'painted_logo_351.png') %]" alt="View of Amsterdam">
+                <img class="hidden-sm-down" src="[% make_uri_info('img', 'nlpw-neon.svg') %]" alt="NLPW neon letters">
               </div>
             </div>
             
-            <div class="mbr-table-cell col-md-7 text-xs-center text-md-left">
+            <div class="mbr-table-cell col-md-6 text-xs-center text-md-left">
 
               <h3 class="mbr-section-title display-2">
                 <span class="hidden-sm-down">
-                  The Perl Conference<br><span style="font-weight: normal;">in Amsterdam</span>
+                  Dutch Perl Workshop<br><span style="font-weight: normal;">Utrecht, NL</span>
                 </span>
                 <span class="hidden-md-up" style="font-size:80%;">
-                  The Perl Conference<br><span style="font-weight: normal;">in Amsterdam</span>
+                  Dutch Perl Workshop<br><span style="font-weight: normal;">Utrecht, NL</span>
                 </span>
               </h3>
 
               <div class="mbr-section-text display-4">
-                <p style="font-size:70%;">9 .. 11 August, 2017</p>
+                <p style="font-size:70%;">3 .. 4 May, 2018</p>
               </div>
 
               <div class="mbr-section-text display-4">
                 <p style="font-size:50%;font-weight:200;">
-                  at B.Amsterdam<br>
-                  Johan Huizingalaan 763a<br>
-                  1066 VH Amsterdam
+                  Utrechts Centrum voor de Kunsten<br>
+                  Domplein 4<br>
+                  3512&nbsp;JC  Utrecht
                 </p>
               </div>
               

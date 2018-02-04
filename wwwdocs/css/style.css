@@ -281,7 +281,7 @@ p.message {
   margin-top:  -150px;
   padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 0px;
-  background: url(../img/gevels-768.jpg) no-repeat center center;
+  background: url(../img/utrecht-768.jpg) no-repeat center center;
   }
 }
 @media (min-width: 768px)  {
@@ -289,7 +289,7 @@ p.message {
   margin-top: -50px;
   padding-top: 0px;
   padding-bottom: 50px;
-  background: url(../img/gevels.jpg) no-repeat center center;
+  background: url(../img/utrecht-1280x720.jpg) no-repeat center center;
   }
 }
 

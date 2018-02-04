@@ -19,7 +19,7 @@
 
   <div class="collapse navbar-collapse" id="nav-menu-options">
     <ul class="nav navbar-nav">
-    [% PROCESS menus/conference  bootstrap3=1 %]
+    [% PROCESS menus/workshop  bootstrap3=1 %]
     [% PROCESS menus/news        bootstrap3=1 %]
     [% PROCESS menus/wiki        bootstrap3=1 %]
     [% PROCESS menus/talks       bootstrap3=1 %]
