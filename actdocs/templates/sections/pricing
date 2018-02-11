@@ -9,7 +9,7 @@
 %]
 
 
-<section class="mbr-section" style="background-color: rgb(48, 48, 48); padding-top: 120px; padding-bottom: 45px;">
+<section class="mbr-section" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 45px;">
 
 
   <div class="mbr-section mbr-section__container mbr-section__container--middle">
@@ -27,7 +27,7 @@
   <div class="mbr-section mbr-section-nopadding mbr-price-table">
     <div class="row">
 
-      [% FOREACH item_name IN [ 'student', 'private', 'friends', 'regular' ] %]
+      [% FOREACH item_name IN [ 'p6train', 'workshp', 'combntn', 'regular' ] %]
         
         [% item = CMS.items.$item_name %]
         
@@ -82,7 +82,7 @@
                 
                   <a
                     href=[% make_uri('login?destination') _ '=' _ make_uri('/index.html') %]
-                    class="btn btn-white btn-white-outline"
+                    class="btn btn-primary btn-primary-outline"
                   >
                     LOGIN FIRST
                   </a>
@@ -91,7 +91,7 @@
                   
                   <a
                     href=[% make_uri('register') %]
-                    class="btn btn-white btn-white-outline"
+                    class="btn btn-primary btn-primary-outline"
                   >
                     JOIN FIRST
                   </a>
@@ -115,7 +115,7 @@
                     
                     <button
                       type="submit" name="purchase" value="Buy Now!"
-                      class="btn btn-white btn-white-outline"
+                      class="btn btn-primary btn-primary-outline"
                     >
                       BUY NOW
                     </button>
@@ -124,7 +124,7 @@
                 [% ELSE %]
                   
                   <div
-                    class="btn btn-white btn-white-outline"
+                    class="btn btn-primary btn-primary-outline"
                   >
                     THANK YOU
                   </div>
@@ -146,27 +146,3 @@
 
 </section>
 
-<section class="mbr-section article" style="background-color: rgb(48, 48, 48); color: rgb(255, 255, 255); padding-top: 45px; padding-bottom: 120px;">
-
-    
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2 text-xs-center">
-        
-        <div class="lead">
-          <p class="">
-            There are more options for buying a ticket. We offer 1-Day tickets
-            and more price ranges for those that want to support the conference
-            in a very generous and apreciated way.
-          </p>
-        </div>
-        <div>
-          <a class="btn btn-secondary" href="[% make_uri('/tickets.html') %]">
-            SEE OTHER TICKETS OPTIONS
-          </a>
-        </div>
-      </div>
-    </div>
-</div>
-
-</section>

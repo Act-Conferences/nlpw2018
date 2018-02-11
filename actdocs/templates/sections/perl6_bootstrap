@@ -1,0 +1,33 @@
+<section class="mbr-section" id="msg-box5-p" data-rv-view="56" style="background-color: rgb(82, 0, 175); padding-top: 0px; padding-bottom: 0px;">
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="mbr-table-md-up">
+
+              
+
+              <div class="mbr-table-cell col-md-5 text-xs-center text-md-right content-size" style="color: rgb(255, 255, 255);">
+                  <h3 class="mbr-section-title display-2">Perl6 Bootstrap</h3>
+                  <div class="lead">
+
+                    <p><strong>1 day of hands-on practical training</strong></p>
+
+                  </div>
+
+                  
+              </div>
+
+
+              
+
+
+              <div class="mbr-table-cell mbr-left-padding-md-up mbr-valign-top col-md-7 image-size" style="width: 50%;">
+                  <div class="mbr-figure"><img src="[% make_uri_info('img', 'butterfly.svg') %]" alt="Perl 6 Camelia" title="Camelia"></div>
+              </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>

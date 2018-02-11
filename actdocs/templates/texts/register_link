@@ -6,7 +6,7 @@
   
   reg_link_class = '';
   IF mobirise;
-    reg_link_class = 'btn btn-info';
+    reg_link_class = 'btn btn-primary';
   END;
 %]
 
