@@ -99,16 +99,16 @@
 
                       <a
                         href=[% make_uri('login?destination') _ '=' _ make_uri('/tickets.html') %]
-                        class="btn btn-black btn-black-outline"
+                        class="btn btn-primary btn-primary-outline"
                       >
-                        LOGIN FIRST
+                        LOGIN FIRST !!!
                       </a>
 
                     [% ELSIF NOT global.request.user.has_registered %]
 
                       <a
                         href=[% make_uri('register') %]
-                        class="btn btn-black btn-black-outline"
+                        class="btn btn-primary btn-primary-outline"
                       >
                         JOIN FIRST
                       </a>
@@ -132,7 +132,7 @@
 
                         <button
                           type="submit" name="purchase" value="Buy Now!"
-                          class="btn btn-black btn-black-outline"
+                          class="btn btn-primary btn-primary-outline"
                         >
                           BUY NOW
                         </button>
@@ -141,7 +141,7 @@
                     [% ELSE %]
 
                       <div
-                        class="btn btn-black btn-black-outline"
+                        class="btn btn-primary btn-primary-outline"
                       >
                         THANK YOU
                       </div>

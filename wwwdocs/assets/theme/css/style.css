@@ -68,29 +68,29 @@
   border-radius: 3px; }
 
 .btn-primary {
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #ff00ff;
+  border-color: #7700ff;
   box-shadow: none;
-  color: #fff; }
+  color: #7700ff; }
   .btn-primary:hover {
-    color: #fff;
-    background-color: #a07e49;
-    border-color: #a07e49;
+    color: #ffffff;
+    background-color: #7700ff;
+    border-color: #7700ff;
     box-shadow: none; }
   .btn-primary:focus, .btn-primary.focus {
-    color: #fff;
-    background-color: #a07e49;
-    border-color: #a07e49; }
+    color: #7700ff;
+    background-color: #ffaaff;
+    border-color: #7700ff; }
   .btn-primary:active, .btn-primary.active {
-    color: #fff;
-    background-color: #a07e49;
-    border-color: #a07e49;
+    color: #7700ff;
+    background-color: #ff00ff;
+    border-color: #7700ff;
     background-image: none;
     box-shadow: none; }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff !important;
-    background-color: #a07e49 !important;
-    border-color: #a07e49 !important;
+    background-color: #ff00ff !important;
+    border-color: #ff00ff !important;
     opacity: 0.85; }
 
 .btn-secondary {
@@ -277,20 +277,20 @@
 
 .btn-primary-outline {
   background: none;
-  border-color: #8e7041;
-  color: #8e7041; }
+  border-color: #ff00ff;
+  color: #ff00ff; }
   .btn-primary-outline:focus, .btn-primary-outline.focus, .btn-primary-outline:active, .btn-primary-outline.active {
-    color: #fff;
-    background-color: #c0a375;
-    border-color: #c0a375; }
+    color: #ff00ff;
+    background-color: #7700ff;
+    border-color: #ff00ff; }
   .btn-primary-outline:hover {
-    color: #fff;
-    background-color: #c0a375;
-    border-color: #c0a375; }
+    color: #ff00ff;
+    background-color: #7700ff;
+    border-color: #ff00ff; }
   .btn-primary-outline.disabled, .btn-primary-outline:disabled {
-    color: #fff !important;
-    background-color: #c0a375 !important;
-    border-color: #c0a375 !important;
+    color: #ff00ff !important;
+    background-color: #7700ff !important;
+    border-color: #ff00ff !important;
     opacity: 0.85; }
 
 .btn-secondary-outline {
@@ -578,8 +578,8 @@ p.lead,
   color: #fff; }
 
 .alert-warning {
-  background-color: #f3c649;
-  color: #fff; }
+  background-color: #ffbcdd;
+  color: #ff007f; }
 
 .alert-danger {
   background-color: #f28281;
@@ -2022,7 +2022,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   text-align: center;
   display: block;
   margin-top: 0.2em;
-  color: #F1C050; }
+  color: #FF007F; }
 
 /* features4 */
 .mbr-iconfont.mbr-iconfont-features4 {

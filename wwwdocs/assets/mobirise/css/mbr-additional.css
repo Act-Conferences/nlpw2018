@@ -91,8 +91,8 @@ h6,
   background-color: #f28281 !important;
 }
 .btn-primary {
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #ff008f;
+  border-color: #ff007f;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -100,9 +100,9 @@ h6,
 .btn-primary.focus,
 .btn-primary:active,
 .btn-primary.active {
-  color: #ffffff;
-  background-color: #a07e49;
-  border-color: #a07e49;
+  color: #ff007f;
+  background-color: #ffffff;
+  border-color: #ff007f;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
@@ -212,8 +212,8 @@ h6,
 }
 .btn-primary-outline {
   background: none;
-  border-color: #8e7041;
-  color: #8e7041;
+  border-color: #ff008f;
+  color: #ff008f;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
@@ -221,14 +221,14 @@ h6,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #c0a375;
-  border-color: #c0a375;
+  background-color: #ff008f;
+  border-color: #ff008f;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #c0a375 !important;
-  border-color: #c0a375 !important;
+  background-color: #ff008f !important;
+  border-color: #ff008f !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -340,7 +340,7 @@ h6,
   color: #7e9b9f !important;
 }
 .text-warning {
-  color: #f3c649 !important;
+  color: #ff007f !important;
 }
 .text-danger {
   color: #f28281 !important;
@@ -352,7 +352,7 @@ h6,
   background-color: #7e9b9f;
 }
 .alert-warning {
-  background-color: #f3c649;
+  background-color: #ffbcdd;
 }
 .alert-danger {
   background-color: #f28281;
@@ -383,7 +383,7 @@ h6,
   color: #c0a375;
 }
 .lead blockquote {
-  border-color: #c0a375;
+  border-color: #ff007f;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
@@ -429,18 +429,18 @@ h6,
   display: none !important;
 }
 #ext_menu-0 .navbar-caption {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-0 .navbar-toggler {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-0 .close-icon::before,
 #ext_menu-0 .close-icon::after {
-  background-color: #ffffff;
+  background-color: #ff007f;
 }
 #ext_menu-0 .link,
 #ext_menu-0 .dropdown-item {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-0 .link {
   font-size: 0.75rem;
@@ -453,7 +453,7 @@ h6,
 #ext_menu-0 .dropdown-item:hover,
 #ext_menu-0 .link:focus,
 #ext_menu-0 .dropdown-item:focus {
-  color: #c0a375;
+  color: #ffffff;
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-menu {
@@ -472,7 +472,7 @@ h6,
   background: #282828;
 }
 #ext_menu-0 .bg-color.transparent .link {
-  color: #ffffff;
+  color: #ff007f;
   transition: none;
 }
 #ext_menu-0 .bg-color.transparent.opened .link {
@@ -484,7 +484,7 @@ h6,
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
+  color: #ffffff!important;
 }
 #contacts5-1 p,
 #contacts5-1 .list-group-text,
@@ -509,18 +509,18 @@ h6,
   display: none !important;
 }
 #ext_menu-4 .navbar-caption {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-4 .navbar-toggler {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-4 .close-icon::before,
 #ext_menu-4 .close-icon::after {
-  background-color: #ffffff;
+  background-color: #ff007f;
 }
 #ext_menu-4 .link,
 #ext_menu-4 .dropdown-item {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-4 .link {
   font-size: 0.75rem;
@@ -552,7 +552,7 @@ h6,
   background: #282828;
 }
 #ext_menu-4 .bg-color.transparent .link {
-  color: #ffffff;
+  color: #ff007f;
   transition: none;
 }
 #ext_menu-4 .bg-color.transparent.opened .link {
@@ -570,18 +570,18 @@ h6,
   display: none !important;
 }
 #ext_menu-2 .navbar-caption {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-2 .navbar-toggler {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-2 .close-icon::before,
 #ext_menu-2 .close-icon::after {
-  background-color: #ffffff;
+  background-color: #ff007f;
 }
 #ext_menu-2 .link,
 #ext_menu-2 .dropdown-item {
-  color: #ffffff;
+  color: #ff007f;
 }
 #ext_menu-2 .link {
   font-size: 0.75rem;
@@ -613,7 +613,7 @@ h6,
   background: #282828;
 }
 #ext_menu-2 .bg-color.transparent .link {
-  color: #ffffff;
+  color: #ff007f;
   transition: none;
 }
 #ext_menu-2 .bg-color.transparent.opened .link {
