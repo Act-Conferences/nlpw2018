@@ -1,0 +1,16 @@
+[%
+    SET CMS.item = {
+        title = "Bronze",
+        image = "bronze.png",
+        intro = "Show your true support for Perl and it's Community",
+        texts = [
+           "Sponsoring a event like this, is something you do because you want to",
+
+           "This is a typical package for smaller companies or individuals that
+            have no plans to attend the Perl workshop, but support Perl in general",
+
+        ],
+        price = 150,
+        units = "sweater/hoody<br>for 1"
+    }
+%]

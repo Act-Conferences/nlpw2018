@@ -1,0 +1,14 @@
+[%
+    SET CMS.item = {
+        title = "Gold",
+        image = "gold.png",
+        intro = "You really love Perl",
+        texts = [
+           "We will ensure that your name will
+            be associated with this wonderful experience."
+            
+        ],
+        price = 750,
+        units = "ticket & sweater/hoody<br>for 2"
+    }
+%]

@@ -12,6 +12,9 @@
 
   <ul class="dropdown-menu">
 
+[%# pages %]
+    <li><a [% item_a_attr %] href="[% make_uri('sponsoring.html') %]">Sponsoring</a></li>
+
 [%# payment %]
     <li [% div_li_attr %]></li>
     <li><a [% item_a_attr %] href="[% make_uri('how-to-register.html') %]">How to register</a></li>
