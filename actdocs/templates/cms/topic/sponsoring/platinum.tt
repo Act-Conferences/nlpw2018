@@ -1,0 +1,16 @@
+[%
+    SET CMS.item = {
+        title = "Platinum",
+        image = "platinum.png",
+        intro = "Most valuable package for the community",
+        texts = [
+           "Some sponsors really have a passion...!",
+
+           "We will ensure that your name will be frequently published and
+            announced, before during and after the event."
+            
+        ],
+        price = "1.000",
+        units = "ticket & sweater/hoody<br>for 3"
+    }
+%]

@@ -45,11 +45,11 @@
   
   
   [% FOREACH item_name IN CMS.index.items %][% item = CMS.items.$item_name %]
-    
-    <section class="mbr-section" style="background-color: rgb(242, 242, 242); padding-top: 80px; padding-bottom: 120px;">
-      
+
+    <section class="mbr-section" style="background-color: rgb(242, 242, 242); padding-top: 10px; padding-bottom: 10px;">
       
       <div class="container">
+        <hr>
         <div class="row">
           <div class="mbr-table-md-up">
             
@@ -64,12 +64,12 @@
             </div>
             
             <div class="mbr-table-cell col-md-5 text-xs-center text-md-left content-size">
-              <h3 class="mbr-section-title display-2">[% item.title %]</h3>
+              <h3 class="mbr-section-title display-2" style="color: rgb(255, 0, 143);">[% item.title %]</h3>
               
               <div class="lead">
                 
                 <p>
-                  <i>[% item.intro %]</i>
+                  <i style="color: rgb(255, 0, 143);">[% item.intro %]</i>
                 </p>
                 
                 [% FOREACH words IN item.texts %]
@@ -80,7 +80,7 @@
                 
               </div>
 
-              <h3 class="mbr-section-title display-2" style="text-align: right;">€ [% item.price %]</h3>
+              <h3 class="mbr-section-title display-2" style="text-align: right; color: rgb(255, 0, 143);">€ [% item.price %]</h3>
               <h4 class="mbr-section-title display-4" style="text-align: right;">[% item.units %]</h4>
 
             </div>

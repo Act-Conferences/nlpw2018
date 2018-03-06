@@ -6,25 +6,16 @@
             hard work done by contributors to free and opens source software –
             that you benefit from every day!",
         items = [
-            "hello",
-            "wifi",
-            "hall",
-            "room",
-            "coffee",
-            "sandwich",
-            "soup",
-            "juice",
-            "thanks",
+            "platinum",
+            "gold",
+            "silver",
+            "bronze",
         ],
         texts = [
-           "We already have contracted a few large sponsors, but are still in
-            need of contributions of various sizes.",
-           "You can choose one or combine several packages. Some have been split
-            up over smaller portions, so you can pick and choose. For example,
-            you can choose to sponsor one entire lunch, combining all three
-            ingredients, or sponsor three days part of the WiFi",
-           "Contact sponsors@theperlconference&#8203;.amsterdam for information about how
-            you can help this Perl conference to be affordable for everyone.",
+           "We have contacted various companies for sponsoring specific parts
+            of this event, like lunch, coffee, rooms etc. Yet, it would realy
+            be apreciated if you could sponsor in general, from any of the above
+            packages.",
         ],
         image = 'utrecht-1280x720.jpg',
     }
