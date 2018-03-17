@@ -19,10 +19,10 @@
 
   <div class="collapse navbar-collapse" id="nav-menu-options">
     <ul class="nav navbar-nav">
-    [% PROCESS menus/workshop  bootstrap3=1 %]
-    [% PROCESS menus/news        bootstrap3=1 %]
-    [% PROCESS menus/wiki        bootstrap3=1 %]
-    [% PROCESS menus/talks       bootstrap3=1 %]
+    [%# PROCESS menus/workshop  bootstrap3=1 %]
+    [%# PROCESS menus/news        bootstrap3=1 %]
+    [%# PROCESS menus/wiki        bootstrap3=1 %]
+    [%# PROCESS menus/talks       bootstrap3=1 %]
     [%# PROCESS menus/users      bootstrap3=1  %]
     </ul>
     <ul class="nav navbar-nav navbar-right">
