@@ -24,17 +24,11 @@
       <div class="[% col_class %]">
         <h3 style="margin-bottom:0;"><strong>Contacts</strong></h3>
         <p>
-          <a href="mailto:orga@theperlconference.amsterdam" target="_blank" class="text-white">orga&#8203;@theperlconference&#8203;.amsterdam</a>
-          <br>+ 31 - 384 603 033
+          <a href="mailto:theo@perlworkshop.nl" target="_blank" class="text-white">theo@perlworkshop.nl</a>
           <br>+ 31 - 624 619 072
         </p>
       </div>
       <div class="[% col_class %]">
-        <h3 style="margin-bottom:0;"><strong>Remember...</strong></h3>
-        <p>
-          <span style="line-height: 1.5;">NLPW 2018</span>
-          <br>in Utrecht, NL<br>3 & 4 May, 2018
-        </p>
       </div>
 
     </div>

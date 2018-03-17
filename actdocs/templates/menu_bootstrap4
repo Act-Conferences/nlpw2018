@@ -21,10 +21,10 @@
 
   <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
     
-    [% PROCESS menus/workshop  %]
-    [% PROCESS menus/news        %]
-    [% PROCESS menus/wiki        %]
-    [% PROCESS menus/talks       %]
+    [%# PROCESS menus/workshop  %]
+    [%# PROCESS menus/news        %]
+    [%# PROCESS menus/wiki        %]
+    [%# PROCESS menus/talks       %]
     [%# PROCESS menus/users       %]
     [% PROCESS menus/user        %]
             
