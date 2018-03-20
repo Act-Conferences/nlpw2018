@@ -1,3 +1,0 @@
-[% WRAPPER ui title = loc("Registered!") %]
-<p>[% loc('Congratulations, you are now registered', login, clear_passwd) %]</p>
-[% END %]

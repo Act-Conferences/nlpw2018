@@ -1,0 +1,69 @@
+[%#
+  Define a few custom strings depending on language,
+  either to use instead of strings of default ACT strings
+  or as a convenience.
+  use fixed prefixes to prevent name collisions
+    cs_    (=custom string) as a shorter prefix
+    nlpw_                   as a longer prefix
+%]
+
+[%
+    cs_home_link         = "/$global.request.conference/"
+    cs_event_year        = '2013'
+
+    cs_loc_line1         = 'Stayokay Arnhem'
+    cs_loc_line2         = 'Diepenbrocklaan 27'
+    cs_loc_line3         = '6815 AH Arnhem'
+%]
+
+[% IF global.request.language == 'nl' %]
+  [%
+    cs_event_date        = '19 april 2013'
+    cs_event_dow         = 'vrijdag'
+    cs_event_dow_short   = 'Vr'
+    cs_event_start_hr    = '9'
+    cs_event_start_min   = '30'
+    cs_event_end_hr      = '18'
+    cs_event_end_min     = '00'
+    cs_event_start_ampm  = ''
+    cs_event_end_ampm    = ''
+
+    cs_usermenu          = 'Account'
+    cs_edit_profile      = 'Instellingen'
+    cs_workshop_reg      = 'Workshop-inschrijving'
+    cs_main_private_page        = 'Account-instellingen'
+    cs_main_private_page_title  = 'Account-instellingen - workshop-deelname en gebruikers-info'
+    cs_goto              = 'Ga naar...'
+    cs_home              = 'Startpagina'
+    cs_de                = 'de'
+    cs_het               = 'het'
+    
+    cs_dec_sep           = ','
+  %]
+[% ELSE %]
+  [%
+    cs_event_date        = '19th of April 2013'
+    cs_event_dow         = 'Friday'
+    cs_event_dow_short   = 'Fri'
+    cs_event_start_hr    = '9'
+    cs_event_start_min   = '30'
+    cs_event_end_hr      = '6'
+    cs_event_end_min     = '00'
+    cs_event_start_ampm  = ' AM'
+    cs_event_end_ampm    = ' PM'
+
+    cs_usermenu     = 'Account'
+    cs_edit_profile = 'Settings'
+    cs_workshop_reg = 'Workshop registration'
+    cs_main_private_page        = 'Account settings'
+    cs_main_private_page_title  = 'Account settings - workshop participation and user info'
+    cs_goto              = 'Go to...'
+    cs_home              = 'Home'
+    cs_de                = 'the'
+    cs_het               = 'the'
+    
+    cs_dec_sep           = '.'
+  %]
+[% END %]
+
+[% cs_processed=1 %]
