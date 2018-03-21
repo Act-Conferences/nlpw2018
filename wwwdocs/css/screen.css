@@ -11,13 +11,15 @@
 	#header {
 		background-image: none;
 		height: auto;
+		font-size:70%;
+		min-height:140px;
 	}
 
 	#header:before {
 		content: url("/img/perlnlheader.jpg");
 		display: none;
 	}
-
+	
 	#main {
 		width: auto;
 		margin: 0;
