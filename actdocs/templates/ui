@@ -16,10 +16,22 @@
     <a href="[% make_uri('') %]" style="text-decoration:none;">
       <div id="header">
         <div style="position:relative;top:20px;left:10px;">
-          <p style="font-size:300%;color:white;">Dutch Perl Workshop 2018</p>
-          <p style="font-size:200%;color:white;">Arnhem, 7th of July 2018, 9 AM - 6 PM</p>
+          <p style="font-size:300%;color:white;">
+            <t><nl>
+              Nederlanse Perl-Workshop 2018
+            </nl><en>
+              Dutch Perl Workshop 2018
+            </en></t>
+          </p>
+          <p style="font-size:200%;color:white;">
+            <t><nl>
+              Arnhem, 7 juli 2018, 9.00-18.00 h</p>
+            </nl><en>
+              Arnhem, 7th of July 2018, 9 AM - 6 PM</p>
+            </en></t>
           <p style="font-size:150%;color:white;">
-            At StayOkay Hostel, Diepenbrocklaan 27, 6815 AH Arnhem
+            <t><nl>In het</nl><en>At</en></t> 
+            StayOkay Hostel, Diepenbrocklaan 27, 6815 AH Arnhem
           </p>
         </div>
       </div> <!-- header -->
