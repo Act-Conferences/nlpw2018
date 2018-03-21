@@ -28,7 +28,9 @@ The Perl Workshop is a day of presentations and encounters by and for Perl users
 </div> <!-- kopijbody -->
   
 <div id="sidebar">
-  <h2>Organizers</h2>
+  <h2>
+    <t><nl>Organisatoren</nl><en>Organizers</en></t>
+  </h2>
   
   <p>
     <t><nl>De Nederlandse Perl-Workshop wordt georganiseerd door <a href="http://perl.nl/sppn">Stichting Perl Promotie Nederland</nl>
