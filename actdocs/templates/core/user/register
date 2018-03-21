@@ -1,0 +1,34 @@
+[% USE date %]
+[% IF date.now > end_date %]
+<p>
+ {{Sorry, this conference is over.}}
+</p>
+[% ELSE %]
+
+<p>
+ <t><nl>
+  Om u voor de [% global.conference.name %] in te schrijven, klik gewoon op de onderstaande knop.
+ </nl><en>
+  To register for the [% global.conference.name %] simply click the below button.
+ </en></t>
+</p>
+
+<center>
+
+<form method="POST" action="[% global.request.r.uri %]">
+
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<table border="0" cellpadding="0" cellspacing="10">
+
+<tr>
+   <td colspan="3" align="right">
+      <input type="submit" name="join" value="<t><nl>Inschrijven voor de</nl><en>Join the</en></t> [% global.conference.name %]" />
+   </td>
+</tr>
+</table>
+</td></tr></table>
+
+</form>
+</center>
+
+[% END %]

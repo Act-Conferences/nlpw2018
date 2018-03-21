@@ -7,8 +7,8 @@ languages                   = en nl
 default_language            = en
 default_country             = nl
 
-name_en                     = the Dutch Perl Workshop 2018
-name_nl                     = de Nederlandse Perl Workshop 2018
+name_en                     = Dutch Perl Workshop 2018
+name_nl                     = Nederlandse Perl-Workshop 2018
 timezone                    = Europe/Amsterdam
 
 [registration]
