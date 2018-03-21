@@ -8,7 +8,9 @@
    [% END %]
    [% UNLESS global.request.user.participation OR global.config.closed %]
      [% WRAPPER menus/item %]
-     <a href="[% make_uri('register') %]">{{Register}}</a>
+     <a href="[% make_uri('register') %]">
+      <t><nl>Workshop-inschrijving</nl><en>Registration for workshop</en></t>
+     </a>
      [% END %]
    [% END %]
    [% WRAPPER menus/item %]
