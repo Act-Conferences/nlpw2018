@@ -1,0 +1,47 @@
+<h2>
+<!--  {{Register}} -->
+  <t>
+    <nl>Aanmelden<br/>en inloggen</nl>
+    <en>&nbsp;<br/>{{Register}}</en>
+  </t>
+</h2>
+[% IF global.request.user %]
+  <t>
+    <nl>Ingelogd als </nl>
+    <en>Logged in as </en>
+  </t>
+	[% IF global.request.action == 'user' %]
+		<span class="selected">[% global.request.user.login %]</span>
+	[% ELSE %]
+		<a href="[% make_uri_info('user', global.request.user.user_id) %]">[% global.request.user.login %]</a>
+	[% END %]
+<br/>
+	[% UNLESS global.request.user.participation OR global.config.closed %]
+		<a href="[% make_uri('register') %]"><t><nl>Workshop-aanmelding</nl><en>{{Register}}</en></t></a>
+	[% END %]
+<br/>
+	[% IF global.request.action == 'main' %]
+		<span class="selected">{{Edit profile}}</span>
+	[% ELSE %]
+		<a href="[% make_uri('main') %]">{{Edit profile}}</a>
+	[% END %]
+<br/>
+	<a href="[% make_uri('logout') %]">{{Logout}}</a>
+
+	[% ELSE %]
+
+	[% IF global.request.action == 'login' %]
+		<span class="selected">{{Log in}}</span>
+	[% ELSE %]
+		<a href="[% make_uri('main') %]">{{Log in}}</a>
+	[% END %]
+<br/>
+	[% UNLESS global.config.closed %]
+		[% IF global.request.action == 'register' %]
+			<span class="selected">{{New user}}</span>
+		[% ELSE %]
+			<a href="[% make_uri('register') %]">{{New user}}</a>
+		[% END %]
+	[% END %]
+[% END %]
+
