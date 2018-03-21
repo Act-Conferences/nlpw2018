@@ -1,14 +1,14 @@
 [general]
-full_uri                    = http://act.perlconference.org/nlpw2018/
+full_uri                   = http://perlworkshop/nlpw2018/
 #full_uri                   = http://test.mongueurs.net/nlpw2018/
-#full_uri                   = http://localhost:8080/nlpw2018/
+#full_uri                    = http://localhost:8080/nlpw2018/
 
 languages                   = en nl
 default_language            = en
 default_country             = nl
 
 name_en                     = the Dutch Perl Workshop 2018
-name_nl                     = de Nederlande Perl Workshop 2018
+name_nl                     = de Nederlandse Perl Workshop 2018
 timezone                    = Europe/Amsterdam
 
 [registration]
@@ -31,8 +31,8 @@ notify_accept               = 1
 edition_open                = 0
 show_schedule               = 1
 durations                   = 20 45
-start_date                  = 2018-05-03 08:00:00
-end_date                    = 2018-05-04 20:00:00
+start_date                  = 2018-07-07 08:00:00
+end_date                    = 2018-07-07 23:59:59
 levels                      = 4
 
 [levels]
@@ -47,7 +47,7 @@ level3_name_nl              = Gemiddeld
 level4_name_nl              = Gevorderd
 
 [rooms]
-rooms = r0 r1 r2 r3 t1 t2 t3
+rooms = r0 r1 t1 t2
 
 r0_name_en                  = "Marnix Theatre"
 r0_name_nl                  = "Marnix Theatre"
@@ -60,17 +60,17 @@ t2_name_en                  = "Hackers Room"
 t2_name_nl                  = "Hackers Room"
 
 [payment]
-type                        = YEF
-# type                      = Fake
+#type        = YEF
+type = Fake
 currency                    = EUR
-open                        = 1
-invoices                    = 1
+open                        = 0
+invoices                    = 0
 products                    = registration
 
 [product_registration]
 name_en                     = Registration
 name_nl                     = Registratie
-prices                      = 11
+prices                      = 6
 
 [product_registration_price1]
 name_en                     = Regular price
@@ -88,6 +88,11 @@ name_nl                     = Training - Perl 6 Bootstrap
 amount                      = 85
 
 [product_registration_price4]
+name_en                     = Combi Deal - Perl 6 Bootstrap & Perl Workshop
+name_nl                     = Combi Deal - Perl 6 Bootstrap & Perl Workshop
+amount                      = 135
+
+[product_registration_price5]
 name_en                     = Gratis - Speaker
 name_nl                     = Gratis - Spreker
 amount                      = 0
@@ -95,14 +100,14 @@ amount                      = 0
 # (doesn't seem to work... - only treasurer can select this on user's behalf)
 promocode                   = n1pw-spe@kur
 
-[product_registration_price5]
+[product_registration_price6]
 name_en                     = Gratis - Sponsor
 name_nl                     = Gratis - Sponsor
 amount                      = 0
 # users must enter promotion code to select this price
 # (doesn't seem to work... - only treasurer can select this on user's behalf)
-promocode                   = n1pw-SponZr
+#promocode                   = n1pw-SponZr
 
 # optional Flickr support
 [flickr]
-tags                        = perl,utrecht
+tags                        = perl,arnhem
