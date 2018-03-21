@@ -1,4 +1,11 @@
 <!-- user menu -->
+[% FOREACH lang = global.languages %]
+   <span id="goto-lang">[% WRAPPER menus/item %]
+   <a href="[% lang.uri %]"
+        >&#x2192;&nbsp;[% lang.name %]</a>
+   [% END %]</span>
+[% END %]
+
 [% IF global.request.user %]
    [% WRAPPER menus/section %]
    <a href="[% make_uri_info('user', global.request.user.user_id) %]"><t><nl>Ingelogd als</nl><en>Logged in as</en></t> [% global.request.user.login %]</a>
@@ -29,10 +36,3 @@
      [% END %]
    [% END %]
 [% END %]
-[% FOREACH lang = global.languages %]
-   <span id="goto-lang">[% WRAPPER menus/item %]
-   <a href="[% lang.uri %]"
-        >&#x2192;&nbsp;[% lang.name %]</a>
-   [% END %]</span>
-[% END %]
-
