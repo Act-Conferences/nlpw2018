@@ -171,6 +171,16 @@ Other variables:
 </p>
 
 <p>
+  <h3>global.languages:</h3>
+  [% thearray=global.languages %]
+  <ul>
+    [% FOREACH val IN thearray %]
+      <li>[% val %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
   <h3>global.config.talks_languages:</h3>
   [% thehash=global.config.talks_languages %]
   <ul>
