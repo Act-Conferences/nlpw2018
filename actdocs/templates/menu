@@ -1,5 +1,11 @@
 <ul>
-  <li><a href="/">introductie</a></li>
-    [% PROCESS menus/user  %]
-  <li><a href="/sppn">stichting</a></li>
+  [% PROCESS menus/user %]
+  [%# PROCESS menus/users %]
+  [%# PROCESS menus/news %]
+  [% PROCESS menus/wiki %]
+  [%# PROCESS menus/talks %]
+  [%# PROCESS menus/events %]
+  [% PROCESS menus/treasurer %]
+  [% PROCESS menus/admin %]
+  [%# PROCESS menus/act_confs %]
 </ul>

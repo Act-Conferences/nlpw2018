@@ -1,2 +1,1 @@
-[% content %]
-<ul>
+<h2>[% content %]</h2>

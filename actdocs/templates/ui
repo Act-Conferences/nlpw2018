@@ -12,28 +12,45 @@
 </head>
 <body>
 <div id="main">
-<div id="kopij">
-<div id="header">
-  <div style="position:relative;top:20px;left:10px;">
-    <p style="font-size:300%;color:white;">Dutch Perl Workshop 2018</p>
-    <p style="font-size:200%;color:white;">Arnhem, 7th of July 2018, 9 AM - 6 PM</p>
-    <p style="font-size:150%;color:white;">At StayOkay Hostel, Diepenbrocklaan 27, 6815 AH Arnhem</p>
-  </div>
-</div> <!-- header -->
+  <div id="kopij">
+    <a href="[% make_uri('') %]" style="text-decoration:none;">
+      <div id="header">
+        <div style="position:relative;top:20px;left:10px;">
+          <p style="font-size:300%;color:white;">Dutch Perl Workshop 2018</p>
+          <p style="font-size:200%;color:white;">Arnhem, 7th of July 2018, 9 AM - 6 PM</p>
+          <p style="font-size:150%;color:white;">
+            At StayOkay Hostel, Diepenbrocklaan 27, 6815 AH Arnhem
+          </p>
+        </div>
+      </div> <!-- header -->
+    </a>
 
-[% content %]
+    [% IF with_sidebar %]
+      [% content %]
+    [% ELSE %]
+      <div id="kopij_std_template">
+        [% content %]
+      </div>
 
-<div id="koemeel">
+    [% END %]
+
+  </div> <!-- kopij -->
+
+  <div id="koemeel">
+    
+    <div id="navi">
+      [% PROCESS menu %]
+    </div> <!-- navi -->
   
-  <div id="navi">
-  </div> <!-- navi -->
-</div> <!-- koemeel -->
+  </div> <!-- koemeel -->
 
-<div id="footer">
-<p>
-This website is powered by <a href="http://act.mongueurs.net/">Act</a>
-</p>
-</div> <!-- footer -->
+  <div id="footer">
+    <p>
+      This website is powered by <a href="http://act.mongueurs.net/">Act</a>
+    </p>
+  </div> <!-- footer -->
+    
 </div> <!-- main -->
+
 </body>
 </html>

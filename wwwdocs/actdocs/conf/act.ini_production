@@ -1,7 +1,7 @@
 [general]
-full_uri                    = http://act.perlconference.org/play2018/
-#full_uri                   = http://test.mongueurs.net/play2018/
-#full_uri                   = http://localhost:8080/play2018/
+full_uri                    = http://act.perlconference.org/nlpw2018/
+#full_uri                   = http://test.mongueurs.net/nlpw2018/
+#full_uri                   = http://localhost:8080/nlpw2018/
 
 languages                   = en nl
 default_language            = en
