@@ -63,8 +63,8 @@ t2_name_nl                  = "Hackers Room"
 #type        = YEF
 type = Fake
 currency                    = EUR
-open                        = 1
-invoices                    = 1
+open                        = 0
+invoices                    = 0
 products                    = registration
 
 [product_registration]
