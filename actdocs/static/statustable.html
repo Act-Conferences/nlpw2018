@@ -170,6 +170,16 @@ Other variables:
   </ul>
 </p>
 
+<p>
+  <h3>global.config.talks_languages:</h3>
+  [% thehash=global.config.talks_languages %]
+  <ul>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
+    [% END %]
+  </ul>
+</p>
+
 [% conf=global.request.conference %]
 <form action="/[% conf %]/statustable.html" method="post">
   var1 <input type="text" name="var1" value="abc"><br>
