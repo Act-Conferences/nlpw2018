@@ -105,6 +105,8 @@
 		width: auto;
 		min-width: 8em;
 	}
+	
+	#navi h2 a {margin-right:0.5em;}
 
 	#navi ul {
 		font-size: .8em;
