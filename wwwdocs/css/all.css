@@ -21,7 +21,7 @@ a:visited { color: #E00; }
 #sidebar h2 { color: #E00; }
 #koemeel { color: #FFF; background: #000 url(/nlpw2018/img/koemeelgras.jpg) no-repeat; width: 237px; min-height: 600px; }
 #navi { position: relative; top: 200px; width: 210px; font-size: 100%; font-weight: bolder; text-align: right; }
-#navi h2, #navi h2 a {color:#96b7d8}
+#navi h2, #navi h2 a {color:#aecae2; margin-right:0.5em;}
 #navi ul { list-style-type: none; margin: 0px; line-height: 150%; }
 #navi a { color: #FFF; text-decoration: none; }
 #footer { background-color: #A7AEB4; clear: both; color: #FFF; margin: 0px; }
