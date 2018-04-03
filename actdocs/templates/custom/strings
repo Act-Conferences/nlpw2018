@@ -92,6 +92,8 @@
     conferences_curr     => 'Actuele Perl-workshops'   ,
     library              => 'Unieke Perl-bibliotheek'   ,
     contact              => 'Contact'   ,
+    
+    stats                => 'Statiestiek voor de ' _ global.conference.name ,
   } %]
 [% ELSE %]
   [% cs_page_titles = {
@@ -109,6 +111,8 @@
     contact              => 'Contact'   ,
     
     cs_menu_users        => 'Who\'s coming?' ,
+
+    stats                => 'Statistics for the ' _ global.conference.name ,
 
   } %]
 [% END %]
