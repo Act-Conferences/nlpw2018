@@ -16,8 +16,9 @@ IF global.request.user;
   END;
 
   items.push(
-    {disp='My user info'   , link=make_uri_info('user', global.request.user.user_id) } ,
-    {disp=loc('Logout')    , link=make_uri('logout') } ,
+    {disp=cs_usermenu    , link=make_uri('main') } ,
+    {disp='My user info' , link=make_uri_info('user', global.request.user.user_id) } ,
+    {disp=loc('Logout')  , link=make_uri('logout') } ,
   );
 
 
