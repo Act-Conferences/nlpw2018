@@ -1,0 +1,32 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+[%
+  MenuTopNames = [
+    'language' ,
+    'user' ,
+    'conference' ,
+    'users' ,
+    'wiki' ,
+    'talks' ,
+  ]
+%]
+
+[%
+  FOREACH menu_name IN MenuTopNames;
+    Menus.$menu_name = {link=>'?', disp=>'?', title=>'', items=>[]};
+  END
+%]
+
+
+[%
+  FOREACH lang IN global.languages;
+    Menus.language.disp = "&#x2192;&nbsp;" _ lang.name;
+    Menus.language.link = lang.uri;
+  END;
+%]
+
+[% PROCESS menus/user         %]
+[% PROCESS menus/conference   %]
+[% PROCESS menus/users        %]
+[% PROCESS menus/wiki         %]
+[% PROCESS menus/talks        %]

@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  #headline { font-size:60%; min-height:110px;      }
+  #koemeel  { position:absolute;top:15px;left:15px; width:140px; }
+}
+
+@media (min-width: 992px) {
+  #headline { font-size:80%; min-height:145px; }
+  #koemeel  { position:absolute;top:20px;left:20px; width:180px; }
+}
+
+@media (min-width: 1200px) {
+  #headline { font-size:100%; min-height:175px;}
+  #koemeel  { position:absolute;top:20px;left:20px; width:220px; }
+}

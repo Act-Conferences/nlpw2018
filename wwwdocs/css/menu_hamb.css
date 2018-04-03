@@ -1,0 +1,16 @@
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+               
+
+@media (min-width: 768px) {
+  #hamb_containerx { display:none; }
+  #hamb_container,
+  #hamb_container nav {padding:0;margin:0}
+}
+
+#navbar_hambx {font-size:60%;} 

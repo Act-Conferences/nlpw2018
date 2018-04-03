@@ -1,0 +1,10 @@
+#menu_screen {margin-top:2em;}
+
+#menu_screen ul li a             					{color:#aecae2;font-size:110%;text-align:right;font-weight:bold;}
+#menu_screen ul li ul li a, 
+#menu_screen ul li #screen_submenu_language       	{color:white;font-size:80%;padding-right:0.5em;}
+#menu_screen ul li ul li ul li a 					{color:white;font-size:80%;padding-right:0.5em;}
+
+.fa-1x {
+    font-size: 1.5rem;
+}

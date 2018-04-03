@@ -1,0 +1,13 @@
+<!-- talks menu -->
+
+[%
+
+items = [];
+
+  Menus.wiki.disp   = 'Wiki';
+  Menus.wiki.title  = 'Wiki';
+
+
+Menus.wiki.items = items;
+
+%]

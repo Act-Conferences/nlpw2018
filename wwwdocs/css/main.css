@@ -1,0 +1,23 @@
+body {
+	font-family: verdana,sans-serif; 
+	color: #000; 
+	background-color:#A7AEB4;
+}
+
+/* perl.nl style media all */
+h1 { font-size: 18px; color: #048; }
+h2 { font-size: 150%; font-weight: bold; color: #048; padding: 15px 0px; }
+h3 { font-size: 100%; font-weight: bold; padding: 10px 0px 5px 0px; }
+p, ul { line-height: 150%; }
+ul { padding: 0px 0px 0px 15px; }
+a:link { color: #048; }
+a:visited { color: #E00; }
+
+/* from screen css */
+h1, h2 {
+  font-variant: normal !important;
+}
+
+h2 {
+		font-size: 1.2em;
+}

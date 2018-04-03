@@ -1,68 +1,48 @@
+[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
 <!doctype html>
 <html lang="nl">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<title>NLPW 2018</title>
-<meta name="Keywords" content="perl,mongers,nederland" />
-<meta name="Description" content="Webstek van de Perl mongers in Nederland" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="stylesheet" type="text/css" media="all"    href="[% make_uri_info('css', 'all.css') %]" />
-<link rel="stylesheet" type="text/css" media="screen" href="[% make_uri_info('css', 'screen.css') %]" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>NLPW 2018</title>
+  <meta name="Keywords" content="perl,mongers,nederland" />
+  <meta name="Description" content="Webstek van de Perl mongers in Nederland" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Local css -->
+  <link rel="stylesheet" type="text/css" media="screen" href="[% make_uri_info('css', 'main.css') %]" />
+  <link rel="stylesheet" type="text/css" media="screen" href="[% make_uri_info('css', 'headline.css') %]" />
+  <link rel="stylesheet" type="text/css" media="screen" href="[% make_uri_info('css', 'menu_hamb.css') %]" />
+  <link rel="stylesheet" type="text/css" media="screen" href="[% make_uri_info('css', 'menu_side.css') %]" />
+  <link rel="stylesheet" type="text/css" media="screen" href="[% make_uri_info('css', 'screen.css') %]" />
+  <link rel="stylesheet" type="text/css" media="screen" href="[% make_uri_info('css', 'mobile.css') %]" />
+
+<style>
+.col, .col-3, .col-4, .col-5, .col-9 {border-style:solid;border-width:0px}
+</style>
+
 </head>
+
 <body>
-<div id="main">
-  <div id="kopij">
-    <a href="[% make_uri('') %]" style="text-decoration:none;">
-      <div id="header">
-        <div style="position:relative;top:20px;left:10px;">
-          <p style="font-size:300%;color:white;">
-            <t><nl>
-              Nederlanse Perl-Workshop 2018
-            </nl><en>
-              Dutch Perl Workshop 2018
-            </en></t>
-          </p>
-          <p style="font-size:200%;color:white;">
-            <t><nl>
-              Arnhem, 7 juli 2018</p>
-            </nl><en>
-              Arnhem, 7th of July 2018</p>
-            </en></t>
-          <p style="font-size:150%;color:white;">
-            <t><nl>In het</nl><en>At</en></t> 
-            StayOkay Hostel, Diepenbrocklaan 27, 6815 AH Arnhem
-          </p>
-        </div>
-      </div> <!-- header -->
-    </a>
 
-    [% IF with_sidebar %]
-      [% content %]
-    [% ELSE %]
-      <div id="kopij_std_template">
-        [% content %]
-      </div>
+[% PROCESS body_mobile %]
+[% PROCESS body_screen %]
 
-    [% END %]
-
-  </div> <!-- kopij -->
-
-  <div id="koemeel">
-    
-    <div id="navi">
-      [% PROCESS menu %]
-    </div> <!-- navi -->
-  
-  </div> <!-- koemeel -->
-
-  <div id="footer">
-    <p>
-      This website is powered by <a href="http://act.mongueurs.net/">Act</a>
-    </p>
-  </div> <!-- footer -->
-    
-</div> <!-- main -->
-
-</body>
+  </body>
 </html>

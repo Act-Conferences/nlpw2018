@@ -1,0 +1,23 @@
+<div class="container" id="hamb_container">
+  [% PROCESS menu_hamb %]
+</div>
+
+<div class="container" id="main_container_mobile">
+  [% IF two_column %]
+    <div class="row">
+      <div class="col-12" style="background-color:#E4E4E4;">
+        [% PROCESS $middle %]
+      </div>
+    
+      <div class="col-12" style="background-color:white;">
+        [% PROCESS $right %]
+      </div>
+    </div>
+  [% ELSE %]
+    <div class="col" style="background-color:white;font-size:70%;">
+      <h2>[% title %]</h2>
+      [% content %]
+    </div>
+  [% END %]
+
+</div>

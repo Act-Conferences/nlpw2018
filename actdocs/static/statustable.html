@@ -170,19 +170,41 @@ Other variables:
   </ul>
 </p>
 
+<!--
+ <p>
+   <h3>global.languages:</h3>
+   [% thearray=global.languages %]
+   <ul>
+     [% FOREACH val IN thearray %]
+       <li>[% val %]</li>
+     [% END %]
+   </ul>
+ </p>
+-->
+
 <p>
-  <h3>global.languages:</h3>
-  [% thearray=global.languages %]
+  <h3>global.config.talks_languages:</h3>
+  [% thehash=global.config.talks_languages %]
   <ul>
-    [% FOREACH val IN thearray %]
-      <li>[% val %]</li>
+    [% FOREACH key IN thehash.keys %]
+      <li>[% key %] is [% thehash.$key %]</li>
     [% END %]
   </ul>
 </p>
 
 <p>
-  <h3>global.config.talks_languages:</h3>
-  [% thehash=global.config.talks_languages %]
+  <h3>array global.languages:</h3>
+  [% thearray=global.languages %]
+  <ul>
+    [% FOREACH lang IN thearray %]
+      <li>.uri is [% lang.uri %]</li>
+    [% END %]
+  </ul>
+</p>
+
+<p>
+  <h3>global.languages.0:</h3>
+  [% thehash=global.languages.0 %]
   <ul>
     [% FOREACH key IN thehash.keys %]
       <li>[% key %] is [% thehash.$key %]</li>
