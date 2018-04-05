@@ -37,5 +37,5 @@ The Perl Workshop is a day of presentations and encounters by and for Perl users
 <h3><t><nl>Partnerprogramma</nl><en>Partner programme</en></t></h3>
 <p>
 <t><nl>Voor meereizende partners die misschien niet in programmeren geïnteresseerd zijn, heeft Arnhem veel bezienswaardigheden te bieden. Kijk voor suggesties op onze <a href="[% make_uri('wiki?node=tourism') %]">toerisme-pagina</a> in de wiki. Bij voldoende belangstelling kunnen wij een partnerprogramma organiseren.</nl>
-<en>For partners coming along who may not be interested in computer programming, Arnhem has a lot of sites to offers. For suggestions have a look at our <a href="[% make_uri('wiki?node=tourism') %]">tourism page</a> in the wiki. If there is sufficient interest, we can organize a partner programme.</en></t>
+<en>For partners coming along who may not be interested in computer programming, Arnhem has a lot of sites to offer. For suggestions have a look at our <a href="[% make_uri('wiki?node=tourism') %]">tourism page</a> in the wiki. If there is sufficient interest, we can organize a partner programme.</en></t>
 </p>
