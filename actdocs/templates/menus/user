@@ -1,38 +1,63 @@
 <!-- user menu -->
-[% FOREACH lang = global.languages %]
-   <span id="goto-lang">[% WRAPPER menus/item %]
-   <a href="[% lang.uri %]"
-        >&#x2192;&nbsp;[% lang.name %]</a>
-   [% END %]</span>
-[% END %]
 
-[% IF global.request.user %]
-   [% WRAPPER menus/section %]
-   <a href="[% make_uri_info('user', global.request.user.user_id) %]"><t><nl>Ingelogd als</nl><en>Logged in as</en></t> [% global.request.user.login %]</a>
-   [% END %]
-   [% WRAPPER menus/item %]
-   <a href="[% make_uri('logout') %]">{{Logout}}</a>
-   [% END %]
-   [% UNLESS global.request.user.participation OR global.config.closed %]
-     [% WRAPPER menus/item %]
-     <a href="[% make_uri('register') %]">
-      <t><nl>Workshop-inschrijving</nl><en>Registration for workshop</en></t>
-     </a>
-     [% END %]
-   [% END %]
-   [% WRAPPER menus/item %]
-   <a href="[% make_uri('main') %]">{{Edit profile}}</a>
-   [% END %]
-[% ELSE %]
-   [% WRAPPER menus/section %]
-   {{Register}}
-   [% END %]
-   [% WRAPPER menus/item %]
-   <a href="[% make_uri('main') %]">{{Log in}}</a>
-   [% END %]
-   [% UNLESS global.config.closed %]
-     [% WRAPPER menus/item %]
-     <a href="[% make_uri('register') %]">{{New user}}</a>
-     [% END %]
-   [% END %]
-[% END %]
+[%
+
+items = [];
+
+IF global.request.user;
+
+  Menus.user.disp  = global.request.user.login;
+  Menus.user.title = 'Logout, Settings';
+
+  UNLESS global.request.user.participation OR global.config.closed;
+    items.push( 
+      {disp=cs_workshop_reg  , link=make_uri('register') } ,
+    );
+  END;
+
+  items.push(
+    {disp=cs_usermenu    , link=make_uri('main') } ,
+    {disp='My user info' , link=make_uri_info('user', global.request.user.user_id) } ,
+    {disp=loc('Logout')  , link=make_uri('logout') } ,
+  );
+
+
+  IF global.request.user.is_users_admin;
+    items.push(
+      {divider=>1} ,
+      {disp=loc('CSV export')           , link=make_uri('export')         } ,
+      {disp=loc('Confirm Attendance')   , link=make_uri('confirm_attend') } ,
+      {disp=loc('Register a new user')  , link=make_uri('create')         } ,
+    );
+  END;
+
+  IF global.request.user.is_treasurer;
+    items.push(
+      {divider=>1} ,
+      {disp=loc('Payments')                   , link=make_uri('payments')          } ,
+      {disp=loc('Payments')        _ '(CSV)'  , link=make_uri('csv/payments')      } ,
+      {disp=loc('Payment Details') _ '(CSV)'  , link=make_uri('csv/payment_items') } ,
+    );
+  END;
+
+  IF global.request.user.is_admin;
+    items.push(
+      {divider=>1} ,
+      {disp=loc('Rights management')          , link=make_uri('rights')           } ,
+    );
+  END;
+
+
+ELSE;
+
+  Menus.user.disp = loc('Register');
+  items.push (
+    {disp=loc('Log in')    , link=make_uri('main')     } ,
+    {disp=loc('New user')  , link=make_uri('register') } ,
+  );
+
+END;
+
+Menus.user.items = items;
+
+%]
