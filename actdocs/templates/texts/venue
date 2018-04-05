@@ -1,51 +1,41 @@
-<h3>
-<t><nl>
-De workshop-locatie
-</nl><en>
-The workshop venue
-</en></t>
-</h3>
-
+﻿
 <div class="contentarea">
-
 <p>
 <t><nl>
-De workshop wordt gehouden in de <a href="http://www.stayokay.com/nl/hostel/arnhem" target="_blank" class="ext">Stayokay-Hostel in Arnhem</a>, waar wij over een uitstekende vergaderzaal en een organisatieruimte beschikken, waar voor alle maaltijden wordt gezorgd en je bovendien makkelijk kunt overnachten.
+De workshop wordt gehouden in de:
 </nl><en>
-The workshop will be held in the <a href="http://www.stayokay.com/en/hostel/arnhem" target="_blank" class="ext">Stayokay Hostel in Arnhem</a>, where we will be able to use an excellent meeting room and an organizers' room, all meals are catered for, and it's convenient to stay the night.
+The workshop will be held at:
 </en></t>
 </p>
-
-
-<p class="space_before_h4"></p>
-<h4>
-<t><nl>
-Route
-</nl><en>
-Route
-</en></t>
-</h4>
-
-<p>
-<t><nl>
-Voor navigatiesystemen gebruik de gegevens:
-</nl><en>
-For navigation systems use the data:
-</en></t>
-</p>
-
-<ul class="maintext">
-  <li>Diepenbrocklaan 27, 6815 AH Arnhem</li>
+<ul style="list-style-type:none;margin-left:0.2em;">
+  <li><a href="http://www.stayokay.com/[% lang %]/hostel/arnhem" target="_blank" class="ext">Stayokay Hostel Arnhem</a></li>
+  <li>[% cs_loc_line2 %], [% cs_loc_line3 %]</li>
   <li>52.0010° N, 5.9142° <t><nl>O</nl><en>E</en></t></li>
 </ul>
+<t><nl>Voor de vele Perl-gebruikers in Amsterdam: de reistijd Amsterdam-Arnhem per trein is slechts een uur.</nl>
+<en>For the many Perl users in Amsterdam: the train only takes an hour from Amsterdam to Arnhem</en></t>
+<p>
+<t><nl>
+De locatie biedt:
+</nl><en>
+The venue features:
+</en></t>
+</p>
+<ul style="list-style-type:outside;margin-left:1em;">
+  <li><t><nl>Overnachtingsmogelijkheid (zelf boeken op <a href="http://www.stayokay.com/[% cs_lang %]/hostel/arnhem" target="_blank" class="ext">site van Stayokay</a>)</nl><en>Overnight accommodation (please boek yourself on the <a href="http://www.stayokay.com/[% cs_lang %]/hostel/arnhem" target="_blank" class="ext">Stayokay website</a>)</en></t></li>
+  <li><t><nl>Maaltijden, koffie en thee worden gedurende de hele dag verzorgd.</nl><en>Meals, coffee and tea will be taken care of for the whole day</en></t></li>
+  <li><t><nl>Grote zaal voor presentaties</nl><en>Big meeting room for presentations</en></t></li>
+  <li><t><nl>Extra lokaal voor de organisatoren</nl><en>Extra room for organizers</en></t></li>
+  
+</ul>
 
-<h5>
+<h4>
 <t><nl>
 Route per openbaar vervoer/lopen
 </nl><en>
 Route by public transport/walking
 </en></t>
-</h5>
+</h4>
 <p>
 <t><nl>
 Met openbaar vervoer ga je eerst naar het station van Arnhem. Dan is het 11 minuten met de bus of, voor wie zin heeft in een wandeling, 2,5 km lopen.<br>

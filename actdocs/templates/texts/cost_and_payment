@@ -1,4 +1,4 @@
-[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+﻿[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
 
 <h3>
 <t><nl>Inschrijfgeld</nl>
@@ -16,6 +16,17 @@ To cover our expenses we ask for the following workshop fee:
 </p>
 
 <table style="font-size:90%; margin-left:2em;">
+  <tr>
+    <td style="vertical-align:top;">&euro;</td>
+    <td style="text-align:right;vertical-align:top;">400</td>
+    <td>
+<t><nl>
+voor zakelijke deelnemers van bedrijven die extra sponsoring willen geven. Deze extra ondersteuning wordt aan het begin onder de aandacht gebracht.
+</nl><en>
+for business attendees from companies willing to give extra sponsoring. This additional support will be mentioned at the beginning of the conference.
+</en></t>
+    </td>
+  <tr>
   <tr>
     <td style="vertical-align:top;">&euro;</td>
     <td style="text-align:right;vertical-align:top;">150</td>
@@ -57,11 +68,6 @@ for attendees with limited financial means (please first briefly state a reason 
 <en>(Prices include 21% VAT.)</en></t>
 </p>
 
-<p>
-<t><nl>Uiteraard zijn wij hiernaast dankbaar voor extra </nl>
-<en>Of course we will also appreciate any additional </en></t>
-<a href="sponsoring.html">sponsoring</a>.
-</p>
 
 <p class="space_before_h4">
 <h4>
@@ -100,14 +106,6 @@ Lunch and dinner
 Tee, koffie en koekjes gedurende de hele dag
 </nl><en>
 Tea, coffee and cookies all day long
-</en></t>
-</li>
-
-<li>
-<t><nl>
-Verse origineel <a href="http://nl.wikipedia.org/wiki/Limburgse_vlaai" target="_blank" class="ext">Limburgse vlaai</a>, special meegebracht door onze sponsor <a href="http://dijkmat.nl" target="_blank" class="ext">Dijkmat</a> uit het zuiden des lands.
-</nl><en>
-Fresh original <a href="http://en.wikipedia.org/wiki/Vlaai" target="_blank" class="ext">Limburgse vlaai</a>, especially brought by our sponsor <a href="http://dijkmat.nl" target="_blank" class="ext">Dijkmat</a> from the South of the Netherlands.
 </en></t>
 </li>
 

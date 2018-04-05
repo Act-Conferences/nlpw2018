@@ -13,4 +13,29 @@
   #hamb_container nav {padding:0;margin:0}
 }
 
-#navbar_hambx {font-size:60%;} 
+#navbar_hambx {font-size:60%}
+
+#menu_hamb {
+  color:#eee;
+  list-style-type:none;
+}
+#menu_hamb>li>a {
+  color:#222;
+  margin: 0.2em 1em 0.2em 0.3em;
+  padding-left:0.5em;
+  border-style:solid;
+  border-radius:5px;
+  background-color:#bbb;
+}
+
+#menu_hamb li ul      { list-style-type: none; }
+#menu_hamb li ul li {
+  color:#444;
+  font-size:90%;
+  margin: 0.2em 0 0.2em 0.3em;
+  padding-left:0.5em;
+  border-style:solid;
+  border-width:1px;
+  border-radius:5px;
+  background-color:#bbb;
+}

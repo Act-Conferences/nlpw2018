@@ -5,6 +5,7 @@
   use fixed prefixes to prevent name collisions
     cs_    (=custom string) as a shorter prefix
     nlpw_                   as a longer prefix
+    
 %]
 
 [% IF global.request.language == 'nl' %]
@@ -80,12 +81,12 @@
 <!-- page labels -->
 [% IF global.request.language == 'nl' %]
   [% cs_page_titles = {
-    venue                => 'De locatie'   ,
+    venue                => 'Locatie'   ,
+    venue_long           => 'De workshop-locatie'   ,
     accommodation         => 'Overnachting'   ,
     registration_info    => 'Workshop-inschrijving'   , 
     cost_and_payment     => 'Kosten en betaling'   ,
     speakers             => 'Presentaties voorstellen'   ,
-    language             => 'Voertaal'   ,
     sponsoring           => 'Sponsor worden'   ,
     sponsors             => 'Onze sponsors'   ,
     conferences_nl       => 'Eerdere NL-workshops'   ,
@@ -98,6 +99,7 @@
 [% ELSE %]
   [% cs_page_titles = {
     venue                => 'Venue'   ,
+    venue_long           => 'The Workshop Venue'   ,
     accommodation         => 'Accommodation'   ,
     registration_info    => 'Workshop registration'   ,
     cost_and_payment     => 'Cost and payment'   ,
@@ -136,7 +138,9 @@
 
 <!-- language-independent -->
   [%
-    cs_home_link         = "/$global.request.conference/"
+    cs_lang              = global.request.language
+  
+    cs_home_link         = make_uri()
     cs_event_year        = '2018'
 
     cs_loc_name          = 'Universiteit voor Humanistiek'
