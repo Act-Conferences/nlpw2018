@@ -1,0 +1,32 @@
+<div id="sidebar">
+  <h2>
+    <t><nl>Contact</nl><en>Contact</en></t>
+  </h2>
+  
+  <p>
+    <t><nl>De voorbereidingen van de workshop zijn in volle gang. Als u bepaalde vragen nu al wilt stellen, mail ons onder</nl>
+    <en>The preparation of the workshop is in full swing. If you have questions you would like to have answered now, email us at</a></en></t> <a href="mailto:organisatie@perlworkshop.nl">organisatie@&#x200B;perlworkshop.nl</a>.
+  </p>
+  
+  <h2>
+    <t><nl>Eerdere workshops</nl><en>Previous workshops</en></t>
+  </h2>
+
+  <p>
+    <t><nl>Om meer te weten te komen over de Nederlandse Perl-workshops, kunt u de websites van onze workshops in <a href="http://www.perlworkshop.nl/nlpw2016?language=nl">2016</a> en <a href="http://www.perlworkshop.nl/nlpw2016/conferences_nl.html?language=nl">eerdere jaren</a> bezoeken.</nl>
+    <en>To find out more about Dutch Perl workshops, please check out the websites of our workshops in <a href="http://www.perlworkshop.nl/nlpw2016?language=en">2016</a> and <a href="http://www.perlworkshop.nl/nlpw2016/conferences_nl.html?language=en">previous years</a>.</en></t>
+  
+  </p>
+  
+<div style="background-color:#f9f9c6;border-radius:10px;padding:0.5em 1em;">
+  <h2><t><nl>Aarzel niet!</nl><en>Don't hesitate</en></t></h2>
+<ul>
+  <li><t><nl><a href="[% make_uri('register') %]">Schrijf u in</a> voor de workshop</nl><en><a href="[% make_uri('register') %]">Register</a> for the workshop</en></t></li>
+  <li><t><nl>Dien <a href="[% make_uri('newtalk') %]">presentaties</a> in</nl><en><a href="[% make_uri('newtalk') %]">Submit</a> presentations</en></t></li>
+  <li><t><nl><a href="http://www.stayokay.com/[% cs_lang %]/hostel/arnhem" target="_blank" class="ext">Boek</a> uw overnachting</nl><en><a href="http://www.stayokay.com/[% cs_lang %]/hostel/arnhem" target="_blank" class="ext">Book</a> your accommodation</en></t></li>
+  
+<t><nl></nl><en></en></t>
+</ul>
+</div>
+
+</div>

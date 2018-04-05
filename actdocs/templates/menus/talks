@@ -1,0 +1,50 @@
+<!-- talks menu -->
+
+[%
+
+items = [];
+
+
+  Menus.talks.disp  = loc('Talks & events');
+  Menus.talks.title = 'View/manage talks & events';
+
+  items.push(
+    {disp=loc('Schedule')       , link=make_uri('schedule') } ,
+    {disp=loc('Presentations')  , link=make_uri('talks')    } ,
+    {disp=loc('Favorite Talks') , link=make_uri('favtalks') } ,
+  );
+
+  IF global.config.talks_show_schedule OR global.request.user.is_talks_admin;
+    items.push( 
+      {disp=loc('Submit a talk proposal')  , link=make_uri('newtalk') } ,
+    );
+  END;
+
+  IF global.config.talks_show_schedule OR global.request.user.is_talks_admin;
+    items.push({divider=>1});
+    
+    IF global.request.user.has_registered;
+      items.push(
+        {disp=loc('Personal Schedule')     , link=make_uri('myschedule')         } ,
+      );
+    END;
+
+    items.push(
+      {disp=loc('iCal import')              , link=make_uri('timetable.ics')  } ,
+    );
+
+    IF global.request.user.is_talks_admin;
+      items.push(
+        {disp=loc('iCal export')              , link=make_uri('ical_import')  } ,
+        {disp=loc('CSV export')               , link=make_uri('export_talks') } ,
+        {disp=loc('Events')                   , link=make_uri('events')       } ,
+        {disp=loc('Submit a new event')       , link=make_uri('newevent')     } ,
+      );
+    END;
+    
+  END;
+
+
+Menus.talks.items = items;
+
+%]

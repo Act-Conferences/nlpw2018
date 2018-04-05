@@ -1,0 +1,44 @@
+[% PROCESS menu_data %]
+[% Home = '/pa18' %]
+
+[% cr="\n" %]
+
+<div class="col-3 collapse d-md-flex bg-faded pt-2 h-100 second_row" id="menu_screen">
+  <ul class="nav flex-column" style="width:100%;">
+  
+    [% FOREACH menu_name IN MenuTopNames %]
+      [% submenu_name = 'screen_submenu_' _ menu_name %]
+      [% menu = Menus.$menu_name %]
+      [% link = menu.link %]
+
+    
+      [% IF NOT menu.items.size %]
+
+        <li class="nav-item">
+          <a class="nav-link"  id="[% submenu_name %]" href="[% link %]">[% menu.disp %]</a>
+        </li>
+        
+      [% ELSE %]
+      
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="[% '#' _ submenu_name %]" data-toggle="collapse" data-target="[% '#' _ submenu_name %]">[% menu.disp %]</a>
+          
+          <div class="collapse" id="[% submenu_name %]" aria-expanded="false">
+            <ul class="flex-column pl-2 nav">
+              [% FOREACH submenu IN menu.items %]
+                [% IF submenu.divider %]
+                  <li class="dropdown-divider"></li>
+                [% ELSE %]
+                  <li class="nav-item">
+                    <a class="nav-link py-0" href="[% submenu.link %]">[% submenu.disp %]</a>
+                  </li>
+                [% END %]
+              [% END %]
+            </ul>
+          </div>
+        </li>
+      [% END %]
+    [% END %]
+    
+  </ul>
+</div>

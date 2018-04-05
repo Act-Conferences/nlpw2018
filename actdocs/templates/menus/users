@@ -1,0 +1,52 @@
+<!-- talks menu -->
+
+[%
+
+items = [];
+
+  Menus.users.disp = cs_menu_users;
+  Menus.users.title = 'View attendees';
+
+  items.push(
+    {disp=loc('Search')      , link=make_uri('search')       } ,
+    {disp=loc('Statistics')  , link=make_uri('stats')        } ,
+  );
+
+  IF global.request.user.is_users_admin;
+    items.push(
+      {divider=>1} ,
+      {disp=loc('CSV export')             , link=make_uri('export')         } ,
+      {disp=loc('Confirm Attendance')     , link=make_uri('confirm_attend') } ,
+      {disp=loc('Register a new user')    , link=make_uri('create')         } ,
+    );
+  END;
+
+  IF global.request.user.is_treasurer;
+    items.push(
+      {divider=>1} ,
+      {disp=loc('Payments')                       , link=make_uri('payments')          } ,
+      {disp=loc('Payments')         _ ' (CSV)'    , link=make_uri('csv/payments')      } ,
+      {disp=loc('Payment Details')  _ ' (CSV)'    , link=make_uri('csv/payment_items') } ,
+    );
+  END;
+
+  IF global.request.user.is_treasurer;
+    items.push(
+      {divider=>1} ,
+      {disp=loc('Payments')                       , link=make_uri('payments')          } ,
+      {disp=loc('Payments')         _ ' (CSV)'    , link=make_uri('csv/payments')      } ,
+      {disp=loc('Payment Details')  _ ' (CSV)'    , link=make_uri('csv/payment_items') } ,
+    );
+  END;
+
+  IF global.request.user.is_admin;
+    items.push(
+      {divider=>1} ,
+      {disp=loc('Rights management')              , link=make_uri('rights')          } ,
+    );
+  END;
+  
+
+Menus.users.items = items;
+
+%]

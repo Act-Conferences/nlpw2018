@@ -1,0 +1,18 @@
+<!-- talks menu -->
+
+[%
+
+items = [];
+
+  Menus.conference.disp  = cs_conf_menu;
+  Menus.conference.title = cs_conf_menu_title;
+
+  items.push(
+    {disp=cs_page_titles.venue                , link=make_uri('venue.html')             } ,
+    {disp=cs_page_titles.cost_and_payment     , link=make_uri('cost-and-payment.html')  } ,
+    {disp=cs_page_titles.sponsoring           , link=make_uri('sponsoring.html')        } ,
+  );
+
+Menus.conference.items = items;
+
+%]

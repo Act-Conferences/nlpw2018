@@ -1,0 +1,41 @@
+﻿[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+<h2>Perl workshop</h2>
+  <p>
+  <t><nl>
+De Perl-workshop is een jaarlijks terugkerende dag van presentaties en ontmoetingen van en voor Perl-gebruikers met interessante inhoud zowel voor ervaren als ook beginnende gebruikers van de programmeertaal Perl.
+  </nl><en>
+The Perl Workshop is a day of presentations and encounters by and for Perl users with interesting content for new and experienced users of the Perl programming language.
+  </en></t>
+  </p>
+  <p>
+
+<h3><t><nl>Plaats en tijd</nl><en>Place and time</en></t></h3>
+<p>
+<t><nl>De technische presentaties vinden plaats op zaterdag 7 juli, van 9.30 uur tot 18.00 uur in de workshop-ruimte van de <a href="[% make_uri('venue.html') %]">Stayokay-Hostel</a> in Arnhem. De dag wordt afgesloten met een gezamenlijke barbecue als avondeten.</nl>
+<en>The technical presentations will take place on Saturday, 7th of July from 9.30 AM to 6 PM in the meeting room of the <a href="[% make_uri('venue.html') %]">Stayokay Hostel</a> in Arnhem. The day will be concluded with a joint barbecue as a workshop dinner.</en></t>
+</p>
+
+<h3><t><nl>Extra activiteiten voor- en achteraf</nl><en>Extra activities before and after</en></t></h3>
+<p>
+<t><nl>U kunt op vrijdagavond al komen voor een gezamenlijk bezoek aan de hackerspace <a href="https://hack42.nl/blog/" _target="blank">Hack42</a>, waar Melinda voor ons zal koken. Voor zondag denken wij aan een hackathon en/of een Perl6-training.</nl>
+<en>If you're interested, you can come already on Friday evening and join us for a visit of the hacker space <a href="https://hack42.nl/blog/" _target="blank">Hack42</a>, where Melinda will prepare dinner for us. For Sunday we're thinking of a hackathon and/or Perl6 training.</en></t>
+</p>
+
+<h3><t><nl>Kosten</nl><en>Cost</en></t></h3>
+<p>
+<t><nl>Kijk <a href="[% make_uri('cost-and-payment.html') %]">hier</a> voor prijzen en betaalwijze.</nl>
+<en>Check <a href="[% make_uri('cost-and-payment.html') %]">here</a> for prices and payment methods.</en></t>
+</p>
+
+<h3><t><nl>Overnachting</nl><en>Accommodation</en></t></h3>
+<p>
+<t><nl>Wie voor en/of na de workshop ter plaatse wil overnachten kan het beste snel op de <a href="http://www.stayokay.com/[% cs_lang %]/hostel/arnhem" target="_blank" class="ext">site van Stayokay</a> boeken (hoe eerder hoe goedkoper).</nl>
+<en>If you'd like to spend the night at the workshop venue before and/or after the workshop, it's best if you book soon at the <a href="http://www.stayokay.com/[% cs_lang %]/hostel/arnhem" target="_blank" class="ext">Stayokay website</a> (the sooner, the cheaper).</nl></en></t>
+</p>
+
+<h3><t><nl>Partnerprogramma</nl><en>Partner programme</en></t></h3>
+<p>
+<t><nl>Voor meereizende partners die misschien niet in programmeren geïnteresseerd zijn, heeft Arnhem veel bezienswaardigheden te bieden. Kijk voor suggesties op onze <a href="[% make_uri('wiki?node=tourism') %]">toerisme-pagina</a> in de wiki. Bij voldoende belangstelling kunnen wij een partnerprogramma organiseren.</nl>
+<en>For partners coming along who may not be interested in computer programming, Arnhem has a lot of sites to offers. For suggestions have a look at our <a href="[% make_uri('wiki?node=tourism') %]">tourism page</a> in the wiki. If there is sufficient interest, we can organize a partner programme.</en></t>
+</p>

@@ -1,0 +1,14 @@
+<!-- talks menu -->
+
+[%
+
+items = [];
+
+  Menus.wiki.disp   = 'Wiki';
+  Menus.wiki.title  = 'Wiki';
+  Menus.wiki.link   = make_uri('wiki');
+
+
+Menus.wiki.items = items;
+
+%]

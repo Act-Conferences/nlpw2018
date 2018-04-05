@@ -1,0 +1,68 @@
+[% PROCESS menu_data %]
+
+[% cr="\n" %] 
+
+    <!--Navbar-->
+    <nav class="navbar navbar-light light-blue lighten-4">
+    
+      <!-- Collapse button -->
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1"
+        aria-expanded="false" aria-label="Toggle navigation" style="position:relative;left:-1.25rem;">
+        <span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span>
+      </button>
+
+      <!-- Navbar brand -->
+      
+      <a class="navbar-brand" href="[% cs_home_link %]" id="navbar_hamb" style="font-size:80%;">[% global.conference.name %]</a>
+    
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto" id="menu_hamb">
+
+          [% FOREACH menu_name IN MenuTopNames %]
+            [% submenu_name = 'hamb_submenu_' _ menu_name %]
+            [% menu = Menus.$menu_name %]
+            [% link = menu.link %]
+      
+          
+            [% IF NOT menu.items.size %]
+      
+              <li class="nav-item">
+                <a class="nav-link"  id="[% submenu_name %]" href="[% link %]">[% menu.disp %]</a>
+              </li>
+              
+            [% ELSE %]
+            
+              <li class="nav-item">
+                <a class="nav-link collapsed" href="[% '#' _ submenu_name %]" data-toggle="collapse" data-target="[% '#' _ submenu_name %]">[% menu.disp %]</a>
+                
+                <div class="collapse" id="[% submenu_name %]" aria-expanded="false">
+                  <ul class="">
+                    [% FOREACH submenu IN menu.items %]
+                      [% IF submenu.divider %]
+                        <li class="dropdown-divider"></li>
+                      [% ELSE %]
+                        <li class="nav-item">
+                          <a class="nav-link" href="[% submenu.link %]">[% submenu.disp %]</a>
+                        </li>
+                      [% END %]
+                    [% END %]
+                  </ul>
+                </div>
+              </li>
+            [% END %]
+          [% END %]
+
+
+        </ul>
+        <!-- Links -->
+    
+      </div>
+      <!-- Collapsible content -->
+    
+    </nav>
+    <!--/.Navbar-->        
+
