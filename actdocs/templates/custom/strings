@@ -94,7 +94,7 @@
     library              => 'Unieke Perl-bibliotheek'   ,
     contact              => 'Contact'   ,
     
-    stats                => 'Statiestiek voor de ' _ global.conference.name ,
+    stats                => 'Statistiek voor de ' _ global.conference.name ,
   } %]
 [% ELSE %]
   [% cs_page_titles = {
