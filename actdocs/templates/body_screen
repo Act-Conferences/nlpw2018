@@ -7,9 +7,8 @@
     
     <div class="col-9" id="headline">
       <a href="[% cs_home_link %]" style="text-decoration:none;">
-        <p style="font-size:240%;color:white;padding:0.3em 0 0.2em 0;margin:0em;">[% global.conference.name %]</p>
+        <p style="font-size:240%;color:white;padding:0.5em 0 0.2em 0;margin:0em;">[% global.conference.name %]</p>
         <p style="font-size:180%;color:white;padding:0.0em 0 0.2em 0;margin:0em;">[% cs_loc_city %], [% cs_event_date %]</p>  
-        <p style="font-size:140%;color:white;padding:0.0em 0 0.2em 0;margin:0em;">In het StayOkay Hostel, Diepenbrocklaan 27, 6815 AH Arnhem</p>
       </a>
     </div>    
 

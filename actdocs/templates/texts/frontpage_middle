@@ -12,8 +12,8 @@ The Perl Workshop is a day of presentations and encounters by and for Perl users
 
 <h3><t><nl>Plaats en tijd</nl><en>Place and time</en></t></h3>
 <p>
-<t><nl>De technische presentaties vinden plaats op zaterdag 7 juli, van 9.30 uur tot 18.00 uur in de workshop-ruimte van de Stayokay-Hostel in Arnhem. De dag wordt afgesloten met een gezamenlijke barbecue als avondeten.</nl>
-<en>The technical presentations will take place on Saturday, 7th of July from 9.30 AM to 6 PM in the meeting room of the Stayokay Hostel in Arnhem. The day will be concluded with a joint barbecue as a workshop dinner.</en></t>
+<t><nl>De technische presentaties vinden plaats op zaterdag 7 juli, van 9.30 uur tot 18.00 uur in de workshop-ruimte van de <a href="[% make_uri('venue.html') %]">Stayokay-Hostel</a> in Arnhem. De dag wordt afgesloten met een gezamenlijke barbecue als avondeten.</nl>
+<en>The technical presentations will take place on Saturday, 7th of July from 9.30 AM to 6 PM in the meeting room of the <a href="[% make_uri('venue.html') %]">Stayokay Hostel</a> in Arnhem. The day will be concluded with a joint barbecue as a workshop dinner.</en></t>
 </p>
 
 <h3><t><nl>Extra activiteiten voor- en achteraf</nl><en>Extra activities before and after</en></t></h3>
