@@ -7,7 +7,6 @@
     nlpw_                   as a longer prefix
     
 %]
-
 [% IF global.request.language == 'nl' %]
   [%
     cs_event_date        = '7 juli 2018'
@@ -77,8 +76,7 @@
     cs_dec_sep           = '.'
   %]
 [% END %]
-
-<!-- page labels -->
+[%# page labels %]
 [% IF global.request.language == 'nl' %]
   [% cs_page_titles = {
     venue                => 'Locatie'   ,
@@ -118,7 +116,6 @@
 
   } %]
 [% END %]
-
 [% cs_pages =
   [
     'venue'               ,
@@ -135,8 +132,7 @@
     'contact' ,
   ]
 %]
-
-<!-- language-independent -->
+[%# language-independent %]
   [%
     cs_lang              = global.request.language
   

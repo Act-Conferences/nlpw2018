@@ -1,5 +1,0 @@
-<ul>
-  <li><a href="/">introductie</a></li>
-    [% PROCESS menus/user  %]
-  <li><a href="/sppn">stichting</a></li>
-</ul>
