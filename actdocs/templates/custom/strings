@@ -39,6 +39,11 @@
     
     cs_menu_users        => 'Wie komen er?' ,
 
+    cs_tutmenu           = 'Tutorials'
+    cs_tutmenu_title     = 'Extra cursussen'
+    cs_tut_embedded      = 'Perl on embedded devices'
+    cs_tut_perl6         = 'Inleiding in Perl6'
+
     cs_dec_sep           = ','
   %]
 [% ELSE %]
@@ -58,7 +63,12 @@
     cs_workshop_reg = 'Workshop registration'
     cs_main_private_page        = 'Account settings'
     cs_main_private_page_title  = 'Account settings - workshop participation and user info'
-    
+
+    cs_tutmenu           = 'Tutorials'
+    cs_tutmenu_title     = 'Extra tutorials'
+    cs_tut_embedded      = 'Perl on embedded devices'
+    cs_tut_perl6         = 'Introductions to Perl6'
+
     cs_conf_menu         = 'Workshop' ,
     cs_conf_menu_title   = 'Practical info and payment' ,
     cs_conf_menu_cost    = 'Cost and payment' ,
