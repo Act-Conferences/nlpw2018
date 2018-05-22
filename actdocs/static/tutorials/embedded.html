@@ -1,0 +1,248 @@
+[% WRAPPER ui title = global.conference.name %]
+
+    <h2><t><de>Workshop: Perl on embedded Devices</de><nl>Workshop: Perl on embedded devices</nl><en>Workshop: Perl on embedded devices</en></t></h2>
+
+    <p><t>
+        <de>Das Ziel dieses Workshops ist es, den Teilnehmern den sicheren Umgang von Softwarenetwicklung und -bereitstellung auf IoT-Geräten zu vermitteln. Außerdem soll von vornherein auf Nicht-Funktionale Anforderungen wie Security-Updates eingegangen werden.</de>
+	<nl>As goal of this workshop the participants learn the safe and reliable way to develop and deploy software on IoT devices. Being able to fulfill non-functional requirements as security updates is conceptionally included.</nl><en>As goal of this workshop the participants learn the safe and reliable way to develop and deploy software on IoT devices. Being able to fulfill non-functional requirements as security updates is conceptionally included.</en>
+    </t></p>
+
+    <p><strong><t>
+        <de>Da nur eine begrenzte Anzahl von Plätzen vorhanden sind, ist eine bindende Anmeldung Voraussetzung.<br />
+            Des weiteren muss zur Deckung der Betriebskosten und Hardwarebereitstellung<sup>*)</sup> ein Unkostenbeitrag erhoben werden.</de>
+	<nl>Because of limited seats, a binding registration is mandatory. <br />
+            Furthermore a registration fee has to be payed to cover operational and hardware<sup>*)</sup> efforts.</nl><en>Because of limited seats, a binding registration is mandatory. <br />
+            Furthermore a registration fee has to be payed to cover operational and hardware<sup>*)</sup> efforts.</en>
+    </t></strong></p>
+
+
+    <h3><t>
+        <de>§9: Wat sull dä Quatsch?</de>
+	<nl>§9: Wat sull dä Quatsch? (What is it good for?)</nl><en>§9: Wat sull dä Quatsch? (What is it good for?)</en>
+    </t></h3>
+
+    <ol>
+        <li><t>
+            <de>Man kann Erfahrungen mit dem Entwickeln von Software für Geräte sammeln, auf die man im Zweifel keinen Zugriff hat, wenn ein Supportfall auftritt.</de>
+            <nl>One can make experiences with developing of software for devices without having access to the device in case of support conditions.</nl><en>One can make experiences with developing of software for devices without having access to the device in case of support conditions.</en>
+        </t></li>
+        <li><t>
+            <de>Es werden Konzepte vermittelt, wie man SaaS mittels embedded Devices vertreiben kann und u.U. sogar Abrechnungsmodelle.</de>
+            <nl>We'll talk about concepts using embedded devices for SaaS models, even partially for accounting.</nl><en>We'll talk about concepts using embedded devices for SaaS models, even partially for accounting.</en>
+        </t></li>
+        <li><t>
+            <de>Es können Experimente mit verschiedenen Betriebskonzepten gemacht und nachvollzogen werden (z.B. Debian auf ext4 vs. Poky auf Squashfs).</de>
+            <nl>Participants can do experiments with different operation concepts (e.g. Debian using ext4 vs. Poky on squashfs).</nl><en>Participants can do experiments with different operation concepts (e.g. Debian using ext4 vs. Poky on squashfs).</en>
+        </t></li>
+        <li><t>
+            <de>Programmierer können bisher unbekannte Probleme erfahren und proaktive bessere Softwarequalität herstellen.</de>
+            <nl>Developers could experience previously unknown problems and thus may result in proactive improved software quality.</nl><en>Developers could experience previously unknown problems and thus may result in proactive improved software quality.</en>
+        </t></li>
+        <li><t>
+            <de>Maintainer können erleben, was Entscheidungen für Konsequenzen erzeugen.</de>
+            <nl>Maintainers could experience which decisions produces which consequences.</nl><en>Maintainers could experience which decisions produces which consequences.</en>
+        </t></li>
+    </ol>
+
+    <h3><t>
+        <de>Der Workshop behandelt folgende Themenbereiche</de>
+	<nl>The workshop covers following topics</nl><en>The workshop covers following topics</en>
+    </t></h3>
+
+    <ol>
+        <li><t>
+            <de>Grundlage von Images für embedded Systeme</de>
+            <nl>Basis of images for embedded systems</nl><en>Basis of images for embedded systems</en>
+        </t></li>
+        <li><t>
+            <de>Kennenlernen der Infrastruktur</de>
+            <nl>Becoming familiar with the infrastructure</nl><en>Becoming familiar with the infrastructure</en>
+        </t></li>
+        <li><t>
+            <de>Einloggen auf dem Buildsystem für den Workshop</de>
+            <nl>Getting logged in on the build machine for the workshop</nl><en>Getting logged in on the build machine for the workshop</en>
+        </t></li>
+        <li><t>
+            <de>Hinzufügen einer einfachen Perl-Anwendung</de>
+            <nl>Adding a simple Perl application</nl><en>Adding a simple Perl application</en>
+        </t></li>
+        <li><t>
+            <de>Erstellen eines neuen Images mit der Anwendung</de>
+            <nl>Building a new image with that application</nl><en>Building a new image with that application</en>
+        </t></li>
+        <li><t>
+            <de>Flashen des Demo-Boards</de>
+            <nl>flash the built image on the demo board</nl><en>flash the built image on the demo board</en>
+        </t></li>
+        <li><t>
+            <de>Test der Anwendung</de>
+            <nl>Testing the application</nl><en>Testing the application</en>
+        </t></li>
+        <li><t>
+            <de>Hinzufügen eines neuen Modules</de>
+            <nl>Adding a new perl module</nl><en>Adding a new perl module</en>
+        </t></li>
+        <li><t>
+            <de>Verwendung des Modules in der Test-Anwendung</de>
+            <nl>Using the newly added Perl module in the test application</nl><en>Using the newly added Perl module in the test application</en>
+        </t></li>
+        <li><t>
+            <de>Flashen und Testen</de>
+            <nl>Flash and test the updated test application</nl><en>Flash and test the updated test application</en>
+        </t></li>
+        <li><t>
+            <de>eigene Schritte</de>
+            <nl>individual steps</nl><en>individual steps</en>
+        </t></li>
+    </ol>
+
+    <h3><t>
+        <de>selbst&auml;ndiges Arbeiten</de>
+	<nl>autonomous work</nl><en>autonomous work</en>
+    </t></h3>
+
+    <p><t>
+        <de>Ab hier können die Teilnehmer verschiedene eigene Schritte ausprobieren - vom Hinzufügen einer eigenen, existierenden Anwendung über Experimente mit elektronischen Bauteilen bis hin zum Testen der eigenen Perl-Module - alles ist möglich.</de>
+	<nl>Starting from here each perticipant can do several individual steps - from adding own, existing applications over experimenting with electronic components up to testing and adopting maintained Perl modules.</nl><en>Starting from here each perticipant can do several individual steps - from adding own, existing applications over experimenting with electronic components up to testing and adopting maintained Perl modules.</en>
+    </t></p>
+
+    <p><t>
+        <de>Bei Interesse kann der individuelle Abschnitt im Rahmen eines Hackathons am Samstag fortgesetzt werden.</de>
+	<nl>On request the individual part can continued with in the hackathon sessions organized on Saturday.</nl><en>On request the individual part can continued with in the hackathon sessions organized on Saturday.</en>
+    </t></p>
+
+    <h3><t>
+        <de>Teilnahme</de>
+	<nl>Participating</nl><en>Participating</en>
+    </t></h3>
+
+    <p><t>
+        <de>Mitzubringendes Arbeitsmaterial: funktionierendes vt100 Terminal, ssh-Client</de>
+        <nl>Self-serviced equipment: operational vt100 terminal, ssh client</nl><en>Self-serviced equipment: operational vt100 terminal, ssh client</en>
+    </t></p>
+
+    <p><t>
+        <de>*) gestelltes Arbeitsmaterial</de>
+        <nl>*) provided equipment</nl><en>*) provided equipment</en>
+    </t></p>
+
+    <table width="100%">
+    <thead>
+    <tr>
+        <td><t>
+            <de>Pos.</de>
+            <nl>Pos.</nl><en>Pos.</en>
+        </t></td>
+        <td><t>
+            <de>Beschreibung</de>
+            <nl>Description</nl><en>Description</en>
+        </t></td>
+        <td><t>
+            <de>Anzahl</de>
+            <nl>Count</nl><en>Count</en>
+        </t></td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td><t>
+            <de>Beaglebone Black</de>
+            <nl>Beaglebone Black</nl><en>Beaglebone Black</en>
+        </t></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><t>
+            <de>Beaglebone Black Gehäuse</de>
+            <nl>Beaglebone Black Case</nl><en>Beaglebone Black Case</en>
+        </t></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><t>
+            <de>Netzteil</de>
+            <nl>Power Supply</nl><en>Power Supply</en>
+        </t></td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><t>
+            <de>serielles Debugadapter</de>
+            <nl>serial debug-adapter</nl><en>serial debug-adapter</en>
+        </t></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><t>
+            <de>SD Karte</de>
+            <nl>SD Card</nl><en>SD Card</en>
+        </t></td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td><t>
+            <de>RJ45 Patchkabel</de>
+            <nl>RJ45 patch cable</nl><en>RJ45 patch cable</en>
+        </t></td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><t>
+            <de>VLAN-Tagged Switch-Port für Laptop &amp; Beaglebone</de>
+            <nl>VLAN-Tagged switch port for Laptop &amp; Beaglebone</nl><en>VLAN-Tagged switch port for Laptop &amp; Beaglebone</en>
+        </t></td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td><t>
+            <de>Breadboard</de>
+            <nl>Breadboard</nl><en>Breadboard</en>
+        </t></td>
+        <td>2-3</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td><t>
+            <de>Sensoren</de>
+            <nl>Sensors</nl><en>Sensors</en>
+        </t></td>
+        <td>~ 5</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td><t>
+            <de>elektronische Bauteile (Widerstände, Jumper, Kabel/Konnektoren, ...)</de>
+            <nl>electronic components (resistors, jumper, cable/connectors, ...)</nl><en>electronic components (resistors, jumper, cable/connectors, ...)</en>
+        </t></td>
+        <td>20-30</td>
+    </tr>
+    </tbody>
+    </table>
+
+    <p><t>
+        <de>Teilnahmegebühr Privat: 65&euro; <br />
+            Teilnahmegebühr Business: 220&euro;</de>
+        <nl>participation fee (private): 65&euro;<br />
+            participation fee (business): 220&euro;</nl><en>participation fee (private): 65&euro;<br />
+            participation fee (business): 220&euro;</en>
+    </t></p>
+
+    <p>
+	<a href="[% make_uri('purchase') %]" class="btn btn-primary btn-block" role="button" ><!--active btn-gpw aria-pressed="true"-->
+	    <t>
+		<de>Verbindlich für Workshop anmelden</de>
+		<nl>Do binding registration</nl><en>Do binding registration</en>
+	    </t>
+	</a>
+    </p>
+
+
+[% END %]
