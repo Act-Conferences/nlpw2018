@@ -1,0 +1,123 @@
+﻿[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
+
+<h2><t><nl>Over de tutorials</nl><en>About the tutorials</en></t></h2>
+
+<p>
+<t><nl>
+Op de zondag na de workshop bieden wij op dezelfde locatie twee eendaagse cursussen aan waarin een onderwerp erg uitgebreid en interactief wordt besproken en ook gelegenheid voor praktische oefeningen is. Klik hieronder voor een uitgebreide beschrijving van de inhoud:
+</nl><en>
+On the Sunday after the workshop we offer two one-day courses in which a topic is presented in-depth and interactively and there is time for practical exercises. Click below for a detailed description of the content:
+</en></t>
+</p>
+<ul style="margin-left: 2em;">
+  <li>
+    <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a>
+  </li>
+  
+  <li>
+    <a href="[% make_uri('tutorials/perl6-intro.html') %]">[% cs_tut_perl6 %]</a>
+  </li>
+
+</ul>
+<p>
+<t><nl>
+Beide cursussen worden in het Engels gegeven en vinden gelijktijdig plaats.</nl><en>
+Both courses will be taught in English and take place in parallel.</en></t>
+</p>
+
+<h3><t><nl>Wanneer?</nl><en>When?</en></t></h3>
+<p>
+<t><nl>
+Zondag 8 juli, 10.00 - 16.00 h, met één uur lunchpauze.
+</nl><en>
+Sunday 8th of July, 10 AM - 4 PM, with one hour lunchbreak.
+</en></t>
+</p>
+
+<h3><t><nl>Deadline: 17 juni</nl><en>Deadline: 17th of June</en></t></h3>
+<p>
+<t><nl>
+Met name voor de hardware-workshop met embedded devices moet de spreker voorbereidingen treffen. Aanmelding is daarom alleen mogelijk tot <i>uiterlijk 17 juni</i>, maar liefst eerder.
+</nl><en>
+Especially for the tutorial with embedded devices the speaker needs to make preparations. Therefore registration is only possible <i>until 17th of June at the latest</i>, but preferably earlier.
+</en></t>
+</p>
+
+<h3><t><nl>Kosten</nl><en>Cost</en></t></h3>
+<p>
+<t><nl>
+De Perl6-tutorial kunnen wij kosteloos aanbieden. Voor de tutorial over embedded devices dient de spreker hardware aan te schaffen en deze is niet kosteloos. Wel is er een korting voor degenen die deze cursus al eens op de Duitse Perl-Workshop hebben bijgewoond.
+</nl><en>
+We can offer the Perl6 tutorial for free. For the tutorial on embedded devices the speaker needs to purchase hardware that needs to be paid for. There is a discount for people who also attended this course at the German Perl Workshop.
+</en></t>
+</p>
+<table class="tut_price" style="border:solid 1px black;margin:0 2%;width:96%;">
+  <colgroup>
+    <col style="width:1%">
+    <col>
+    <col style="width:100px;">
+  </colgroup>
+
+  <tr>
+    <td colspan="3">
+      <b>[% cs_tut_embedded %]</b>
+      (<t><nl>inclusief benodigde speciale hardware</nl>
+       <en>including required special hardware</en></t>)
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;">&nbsp;-</td>
+    <td><t><nl>normale prijs</nl><en>regular price</en></t></td>
+    <td style="text-align:center;">€ 65,--</td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top;">&nbsp;-</td>
+    <td>
+      <t><nl>
+      met korting voor bezoekers van deze cursus op Duitse Perl-Workshop
+      </nl><en>
+      discounted price for attendees of this course at the German Perl Workshop
+      </en></t>
+       </td>
+    <td style="text-align:center;">€ 30,--</td>
+  </tr>
+  <tr>
+    <td style="padding-top:0.2em;"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>[% cs_tut_perl6 %]</b></td>
+    <td style="text-align:center;">gratis</td>
+  </tr>
+</table>
+
+<h3 style="margin-top:1em;">
+  <t><nl>Aanmelding voor tutorial</nl>
+  <en>Registering for a tutorial</en></t>
+</h3>
+<p>
+<t><nl>
+Voor <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a> meld je je aan door het toepasselijke bedrag te betalen. Dit kan op dezelfde twee manieren als de <a href="[% make_uri('cost_and_payment.html') %]">betaling van de workshop-bijdrage</a>, nl. door
+<ul style="margin-left: 2em;">
+  <li><a href="[% make_uri('purchase') %]">Online-betaling op deze website</a></li>
+  <li>Overboeking van het bedrag naar de rekening van de [% cs_sppn_tnv %], IBAN [% cs_sppn_iban %], met een duidelijke omschrijving. Laat ons ook per email aan [% cs_email_link %] weten dat het bedrag is overgemaakt.</li>
+</ul>
+<p>
+Voor de kosteloze tutorial <a href="[% make_uri('tutorials/perl6-intro.html') %]">[% cs_tut_perl6 %]</a>, kun je je eveneens op de <a href="[% make_uri('purchase') %]">online-betaalpagina</a> aanmelden. Mocht je totaal bedrag op € 0 uitkomen, wordt de eigenlijke betaalstap dan overgeslagen. Alternatief kan het ook per email aan [% cs_email_link %].
+</nl><en>
+You register for <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a> by paying the applicable amount. You can choose from the same two payment methods as for the <a href="[% make_uri('cost_and_payment.html') %]">payment of the workshop fee</a>, i.e. by
+<ul style="margin-left: 2em;">
+  <li><a href="[% make_uri('purchase') %]">Online payment on this website</a></li>
+  <li>Bank transfer to the bank account of [% cs_sppn_tnv %], IBAN [% cs_sppn_iban %], with a clear description. Also let us know by email to [% cs_email_link %] that the money has been transferred.</li>
+</ul>
+<p>
+For the free tutorial <a href="[% make_uri('tutorials/perl6-intro.html') %]">[% cs_tut_perl6 %]</a> you can also register via the <a href="[% make_uri('purchase') %]">online payment page</a>. If the total amount of your purchases is € 0, the actual payment step will be skipped. Alternatively, you can also register by email to [% cs_email_link %].
+</en></t>
+</p>
+<h3><t><nl>Voor tutorial aanmelden als je niet naar de workshop kunt/wilt komen</nl><en>Registering for a tutorial if you cannot/don't want to come to the workshop</en></t></h3>
+<p>
+<t><nl>
+<a href="[% make_uri('register') %]">Schrijf je</a> in deze situatie toch voor de workshop in. De normale workshop-bijdrage vervalt dan. De aanmelding voor de tutorial verloopt dan verder net als boven voor workshop-bezoekers beschreven.
+</nl><en>
+In this situation please still <a href="[% make_uri('register') %]">register for the workshop</a>. You don't have to pay the normal workshop fee. The registration steps for the tutorial are then the same as for workshop attendees.
+</en></t>
+</p>

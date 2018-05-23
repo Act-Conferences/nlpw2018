@@ -41,6 +41,7 @@
 
     cs_tutmenu           = 'Tutorials'
     cs_tutmenu_title     = 'Extra cursussen'
+    cs_tut_about         = 'Over de tutorials'
     cs_tut_embedded      = 'Perl on embedded devices'
     cs_tut_perl6         = 'Inleiding in Perl6'
 
@@ -66,8 +67,9 @@
 
     cs_tutmenu           = 'Tutorials'
     cs_tutmenu_title     = 'Extra tutorials'
+    cs_tut_about         = 'About the tutorials'
     cs_tut_embedded      = 'Perl on embedded devices'
-    cs_tut_perl6         = 'Introductions to Perl6'
+    cs_tut_perl6         = 'Introduction to Perl6'
 
     cs_conf_menu         = 'Workshop' ,
     cs_conf_menu_title   = 'Practical info and payment' ,
@@ -158,6 +160,12 @@
     cs_loc_line3         = '6815 AH Arnhem'
     
     cs_video_link        = ''
+    
+    cs_email_link        = '<a href="mailto:organisatie@perlworkshop.nl">organisatie@perlworkshop.nl</a>'
+    cs_email_link_wrap        = '<a href="mailto:organisatie@perlworkshop.nl">organisatie@&#x200B;perlworkshop.nl</a>'
+    
+    cs_sppn_tnv          = 'Stichting Perl Promotie Nederland'
+    cs_sppn_iban         = 'NL27 RABO 0324 6272 38'
   %]
 
 [% cs_processed=1 %]

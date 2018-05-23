@@ -8,8 +8,9 @@
   Menus.tutorials.title = cs_tutmenu_title;
 
   items.push(
-    {disp=cs_tut_embedded       , link=make_uri('tutorials/embedded.html'   ) } ,
-    {disp=cs_tut_perl6          , link=make_uri('tutorials/perl6-intro.html') } ,
+    {disp=cs_tut_about          , link=make_uri('tutorials/about.html'      ) } ,
+    {disp='- ' _ cs_tut_embedded       , link=make_uri('tutorials/embedded.html'   ) } ,
+    {disp='- ' _ cs_tut_perl6          , link=make_uri('tutorials/perl6-intro.html') } ,
   );
 
   Menus.tutorials.items = items;

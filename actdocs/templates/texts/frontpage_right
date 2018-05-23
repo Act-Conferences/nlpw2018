@@ -5,9 +5,32 @@
   
   <p>
     <t><nl>De voorbereidingen van de workshop zijn in volle gang. Als u bepaalde vragen nu al wilt stellen, mail ons onder</nl>
-    <en>The preparation of the workshop is in full swing. If you have questions you would like to have answered now, email us at</a></en></t> <a href="mailto:organisatie@perlworkshop.nl">organisatie@&#x200B;perlworkshop.nl</a>.
+    <en>The preparation of the workshop is in full swing. If you have questions you would like to have answered now, email us at</a></en></t> [% cs_email_link_wrap %].
   </p>
+
+  <h2>
+    <t><nl>Tutorials</nl><en>Tutorials</en></t>
+  </h2>
   
+  <p>
+    <t><nl>Wij hebben twee <a href="[% make_uri('tutorials/about.html') %]">tutorials</a> op de zondag na de workshop gepland:</nl>
+    <en>We have planned two <a href="[% make_uri('tutorials/about.html') %]">tutorials</a> for the Sunday after the workshop:</en></t>
+  </p>
+<ul style="margin-left: 2em;">
+  <li>
+    <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a>
+  </li>
+  
+  <li>
+    <a href="[% make_uri('tutorials/perl6-intro.html') %]">[% cs_tut_perl6 %]</a>
+  </li>
+
+</ul>
+  <p>
+    <t><nl>Deelnemers dienen zich uiterlijk 17 juni aan te melden!</nl>
+    <en>Attendees need to register by 17th of June at the latest!</en></t>
+  </p>
+
   <h2>
     <t><nl>Eerdere workshops</nl><en>Previous workshops</en></t>
   </h2>
