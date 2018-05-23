@@ -96,15 +96,15 @@ We can offer the Perl6 tutorial for free. For the tutorial on embedded devices t
 </h3>
 <p>
 <t><nl>
-Voor <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a> meld je je aan door het toepasselijke bedrag te betalen. Dit kan op dezelfde twee manieren als de <a href="[% make_uri('cost_and_payment.html') %]">betaling van de workshop-bijdrage</a>, nl. door
+Voor <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a> meld je je aan door het toepasselijke bedrag te betalen. Dit kan op dezelfde twee manieren als de <a href="[% make_uri('cost-and-payment.html') %]">betaling van de workshop-bijdrage</a>, nl. door
 <ul style="margin-left: 2em;">
   <li><a href="[% make_uri('purchase') %]">Online-betaling op deze website</a></li>
   <li>Overboeking van het bedrag naar de rekening van de [% cs_sppn_tnv %], IBAN [% cs_sppn_iban %], met een duidelijke omschrijving. Laat ons ook per email aan [% cs_email_link %] weten dat het bedrag is overgemaakt.</li>
 </ul>
 <p>
-Voor de kosteloze tutorial <a href="[% make_uri('tutorials/perl6-intro.html') %]">[% cs_tut_perl6 %]</a>, kun je je eveneens op de <a href="[% make_uri('purchase') %]">online-betaalpagina</a> aanmelden. Mocht je totaal bedrag op € 0 uitkomen, wordt de eigenlijke betaalstap dan overgeslagen. Alternatief kan het ook per email aan [% cs_email_link %].
+Voor de kosteloze tutorial <a href="[% make_uri('tutorials/perl6-intro.html') %]">[% cs_tut_perl6 %]</a> kun je je eveneens op de <a href="[% make_uri('purchase') %]">online-betaalpagina</a> aanmelden. Mocht je totaal bedrag op € 0 uitkomen, wordt de eigenlijke betaalstap dan overgeslagen. Alternatief kan het ook per email aan [% cs_email_link %].
 </nl><en>
-You register for <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a> by paying the applicable amount. You can choose from the same two payment methods as for the <a href="[% make_uri('cost_and_payment.html') %]">payment of the workshop fee</a>, i.e. by
+You register for <a href="[% make_uri('tutorials/embedded.html') %]">[% cs_tut_embedded %]</a> by paying the applicable amount. You can choose from the same two payment methods as for the <a href="[% make_uri('cost-and-payment.html') %]">payment of the workshop fee</a>, i.e. by
 <ul style="margin-left: 2em;">
   <li><a href="[% make_uri('purchase') %]">Online payment on this website</a></li>
   <li>Bank transfer to the bank account of [% cs_sppn_tnv %], IBAN [% cs_sppn_iban %], with a clear description. Also let us know by email to [% cs_email_link %] that the money has been transferred.</li>
