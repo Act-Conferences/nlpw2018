@@ -84,7 +84,7 @@
     cs_menu_user         => 'Account' ,
 
     cs_menu_users        => 'Who\'s coming?' ,
-
+    
     cs_dec_sep           = '.'
   %]
 [% END %]
