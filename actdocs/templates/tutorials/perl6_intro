@@ -2,7 +2,7 @@
 <p>
 This tutorial/workshop will be held on Sunday, 8th of July, 10AM - 4PM, with one hour lunchbreak, see <a href="[% make_uri('tutorials/about.html') %]">About the tutorials</a>.
 </p>
-
+<p>Speaker: <a href="[% make_uri('user/1773') %]">Andrew Shitov</a></p>
     <p>
       <dl>
       <dt>Duration</dt>
