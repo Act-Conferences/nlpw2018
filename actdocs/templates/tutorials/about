@@ -25,12 +25,14 @@ Beide cursussen worden in het Engels gegeven en vinden gelijktijdig plaats.</nl>
 Both courses will be taught in English and take place in parallel.</en></t>
 </p>
 
-<h3><t><nl>Wanneer?</nl><en>When?</en></t></h3>
+<h3><t><nl>Wanneer? Waar?</nl><en>When? Where?</en></t></h3>
 <p>
 <t><nl>
-Zondag 8 juli, 10.00 - 16.00 h, met één uur lunchpauze.
+Zondag 8 juli, 10.00 - 16.00 h, met één uur lunchpauze.<br>
+Zelfde <a href="[% make_uri('venue.html') %]">locatie</a> als het hoofdprogramma van de workshop.
 </nl><en>
-Sunday 8th of July, 10 AM - 4 PM, with one hour lunchbreak.
+Sunday 8th of July, 10 AM - 4 PM, with one hour lunchbreak.<br>
+Same <a href="[% make_uri('venue.html') %]">venue</a> as the main workshop program.
 </en></t>
 </p>
 
