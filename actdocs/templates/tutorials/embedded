@@ -1,4 +1,11 @@
-﻿    <h2><t><de>Workshop: Perl on embedded Devices</de><nl>Workshop: Perl on embedded devices</nl><en>Workshop: Perl on embedded devices</en></t></h2>
+﻿
+
+
+<h2><t><de>Workshop: Perl on embedded Devices</de><nl>Workshop: Perl on embedded devices</nl><en>Workshop: Perl on embedded devices</en></t></h2>
+
+<p>
+This tutorial/workshop will be held on Sunday, 8th of July, 10AM - 4PM, with one hour lunchbreak, see <a href="[% make_uri('tutorials/about.html') %]">About the tutorials</a>.
+</p>
 
     <p><t>
         <de>Das Ziel dieses Workshops ist es, den Teilnehmern den sicheren Umgang von Softwarenetwicklung und -bereitstellung auf IoT-Geräten zu vermitteln. Außerdem soll von vornherein auf Nicht-Funktionale Anforderungen wie Security-Updates eingegangen werden.</de>
@@ -96,17 +103,12 @@
 
     <h3><t>
         <de>selbst&auml;ndiges Arbeiten</de>
-	<nl>autonomous work</nl><en>autonomous work</en>
+	<nl>Autonomous work</nl><en>Autonomous work</en>
     </t></h3>
 
     <p><t>
         <de>Ab hier können die Teilnehmer verschiedene eigene Schritte ausprobieren - vom Hinzufügen einer eigenen, existierenden Anwendung über Experimente mit elektronischen Bauteilen bis hin zum Testen der eigenen Perl-Module - alles ist möglich.</de>
 	<nl>Starting from here each perticipant can do several individual steps - from adding own, existing applications over experimenting with electronic components up to testing and adopting maintained Perl modules.</nl><en>Starting from here each perticipant can do several individual steps - from adding own, existing applications over experimenting with electronic components up to testing and adopting maintained Perl modules.</en>
-    </t></p>
-
-    <p><t>
-        <de>Bei Interesse kann der individuelle Abschnitt im Rahmen eines Hackathons am Samstag fortgesetzt werden.</de>
-	<nl>On request the individual part can continued with in the hackathon sessions organized on Saturday.</nl><en>On request the individual part can continued with in the hackathon sessions organized on Saturday.</en>
     </t></p>
 
     <h3><t>
@@ -224,29 +226,29 @@
     </tr>
     </tbody>
     </table>
-
+<br/>
     <p>
       <t>
-        <de>Teilnahmegebühr Privat: 65&euro; </de>
-        <nl>participation fee (private): 65&euro;</nl>
-        <en>participation fee (private): 65&euro;</en>
+        <nl>Participation fee (regular): 65 &euro;</nl>
+        <en>Participation fee (regular): 65 &euro;</en>
       </t>
-      
-    [% IF 0 %]
       <br />
       <t>
-        <nl> participation fee (business): 220&euro;</nl>
-        <de>Teilnahmegebühr Business: 220&euro;</de>
-        <en> participation fee (business): 220&euro;</en>
+        <nl>Discounted rate (users who already attended this tutorial at German Perl Workshop): 30 &euro;</nl>
+        <en>Discounted rate (users who already attended this tutorial at German Perl Workshop): 30 &euro;</en>
       </t>
-    [% END %]
+      
     </p>
 
-    <p>
-	<a href="[% make_uri('purchase') %]" class="btn btn-primary btn-block" role="button" ><!--active btn-gpw aria-pressed="true"-->
+<div class="row" style="padding-bottom:20px;padding-top:10px;">
+  <div class="col-xs-2 col-md-3"></div>
+  <div class="col-xs-8 col-md-6">
+    <a href="[% make_uri('purchase') %]" class="btn btn-primary btn-block" role="button" style="color:white;"><!--active btn-gpw aria-pressed="true"-->
 	    <t>
 		<de>Verbindlich für Workshop anmelden</de>
 		<nl>Do binding registration</nl><en>Do binding registration</en>
 	    </t>
-	</a>
-    </p>
+    </a>
+  </div>
+</div>
+
