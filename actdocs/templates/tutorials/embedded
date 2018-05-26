@@ -6,7 +6,7 @@
 <p>
 This tutorial/workshop will be held on Sunday, 8th of July, 10AM - 4PM, with one hour lunchbreak, see <a href="[% make_uri('tutorials/about.html') %]">About the tutorials</a>.
 </p>
-
+<p>Speaker: <a href="[% make_uri('user/8669') %]">Jens Rehsack</a></p>
     <p><t>
         <de>Das Ziel dieses Workshops ist es, den Teilnehmern den sicheren Umgang von Softwarenetwicklung und -bereitstellung auf IoT-Geräten zu vermitteln. Außerdem soll von vornherein auf Nicht-Funktionale Anforderungen wie Security-Updates eingegangen werden.</de>
 	<nl>As goal of this workshop the participants learn the safe and reliable way to develop and deploy software on IoT devices. Being able to fulfill non-functional requirements as security updates is conceptionally included.</nl><en>As goal of this workshop the participants learn the safe and reliable way to develop and deploy software on IoT devices. Being able to fulfill non-functional requirements as security updates is conceptionally included.</en>
