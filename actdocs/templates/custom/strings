@@ -72,9 +72,9 @@
     cs_tut_perl6         = 'Introduction to Perl6'
 
     cs_sponmenu           = 'Sponsoring/Sponsors'
-    cs_tutmenu_title     = 'Sponsorship and Sponsors'
-    cs_tut_about         = 'About sponsorship and sponsors'
-    
+    cs_sponmenu_title     = 'Sponsorship and Sponsors'
+    cs_spon_about         = 'About sponsorship and sponsors'
+
     cs_conf_menu         = 'Workshop' ,
     cs_conf_menu_title   = 'Practical info and payment' ,
     cs_conf_menu_cost    = 'Cost and payment' ,
