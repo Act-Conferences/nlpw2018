@@ -45,6 +45,12 @@
     cs_tut_embedded      = 'Perl on embedded devices'
     cs_tut_perl6         = 'Inleiding in Perl6'
 
+    cs_spon_menu           = 'Sponsoring/Sponsors'
+    cs_spon_menu_title     = 'Sponsorship en Sponsors'
+    cs_spon_about         = 'Over sponsorship and sponsors'
+    cs_spon_sponsoring    = 'Over het sponsoren van de workshop'
+    cd_spon_sponsors      = 'Onze sponsors'
+
     cs_dec_sep           = ','
   %]
 [% ELSE %]
@@ -71,8 +77,8 @@
     cs_tut_embedded      = 'Perl on embedded devices'
     cs_tut_perl6         = 'Introduction to Perl6'
 
-    cs_sponmenu           = 'Sponsoring/Sponsors'
-    cs_sponmenu_title     = 'Sponsorship and Sponsors'
+    cs_spon_menu           = 'Sponsoring/Sponsors'
+    cs_spon_menu_title     = 'Sponsorship and Sponsors'
     cs_spon_about         = 'About sponsorship and sponsors'
     cs_spon_sponsoring    = 'About sponsoring the conference'
     cd_spon_sponsors      = 'Our sponsors'
