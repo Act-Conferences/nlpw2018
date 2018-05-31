@@ -74,6 +74,8 @@
     cs_sponmenu           = 'Sponsoring/Sponsors'
     cs_sponmenu_title     = 'Sponsorship and Sponsors'
     cs_spon_about         = 'About sponsorship and sponsors'
+    cs_spon_sponsoring    = 'About sponsoring the conference'
+    cd_spon_sponsors      = 'Our sponsors'
 
     cs_conf_menu         = 'Workshop' ,
     cs_conf_menu_title   = 'Practical info and payment' ,
