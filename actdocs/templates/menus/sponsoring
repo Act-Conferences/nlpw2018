@@ -1,0 +1,17 @@
+<!-- sponsoring menu -->
+
+[%
+
+items = [];
+
+  Menus.sponsoring.disp  = cs_spon_menu;
+  Menus.sponsoring.title = cs_spon_menu_title;
+
+  items.push(
+    {disp=cs_page_titles.sponsoring           , link=make_uri('sponsoring.html')        } ,
+    {disp=cs_page_titles.sponsors           , link=make_uri('sponsors.html')        } ,
+  );
+
+Menus.sponsoring.items = items;
+
+%]
