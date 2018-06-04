@@ -5,6 +5,7 @@
     'language' ,
     'user' ,
     'conference' ,
+    'sponsoring',
     'users' ,
     'wiki' ,
     'talks' ,
@@ -28,6 +29,7 @@
 
 [% PROCESS menus/user         %]
 [% PROCESS menus/conference   %]
+[% PROCESS menus/sponsoring   %]
 [% PROCESS menus/users        %]
 [% PROCESS menus/wiki         %]
 [% PROCESS menus/talks        %]
