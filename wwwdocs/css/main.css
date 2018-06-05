@@ -1,6 +1,6 @@
 body {
-	font-family: verdana,sans-serif; 
-	color: #000; 
+	font-family: verdana,sans-serif;
+	color: #000;
 	background-color:#A7AEB4;
 }
 
@@ -17,6 +17,8 @@ a:link { color: #048; }
 a:visited { color: #E00; }
 
 #sidebar h2 { color: #E00; }
+.altcolors a:link { color: #0000FF; }
+.altcolors a:visited { color: #4444FF; }
 
 /* from screen css */
 h1, h2 {
