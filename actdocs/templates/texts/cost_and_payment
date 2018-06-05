@@ -81,7 +81,7 @@ for attendees with limited financial means (please first briefly state a reason 
 <t><nl>
 Een dag van hoogwaardige Perl-gerelateerde presentaties
 </nl><en>
-A full day of high-level Perl-related presentations 
+A full day of high-level Perl-related presentations
 </en></t>
 </li>
 
@@ -148,7 +148,7 @@ Attention: the option for online payment is only visible when applicable, i.e. w
 Als dit allemaal van toepassing is, verschijnt op uw pagina <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a> een link <b>inschrijfgeld online betalen</b>. Als u deze link aanklikt, wordt u door de creditcard-betaling geleid.
 </nl><en>
 If all this is the case, there will be a link <b>purchase your conference ticket online</b> on your page <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>. If you click this link, you will be guided through the online payment process.
-</en></t>  
+</en></t>
     </li>
 
     <li>
@@ -172,7 +172,7 @@ Bank transfer
   <ul>
 
     <li>
-Maak het geld over naar:
+<td><t><nl>Maak het geld over naar:</nl><en>Transfer the money to:</en><t><td>
 <table style="font-size:90%;border-collapse:collapse;" border="1px">
   <tr>
     <td><t><nl>Rekening</nl><en>Account no.</en></t></td>
@@ -189,7 +189,7 @@ Maak het geld over naar:
   <tr>
     <td><t><nl>Omschrijving</nl><en>Description</en></t></td>
     <td>
-    NLPW[% cs_event_year %] 
+    NLPW[% cs_event_year %]
     <t><nl>
     &lt;achternaam&gt; &lt;voornaam&gt;<br/>
     (of dergelijke omschrijving die duidelijk is in uw situatie)
@@ -228,7 +228,7 @@ Uw betalingsstatus verschijnt op uw pagina <a href="[% make_uri('main') %]">[% c
 </nl><en>
 Your payment status will show up on your page <a href="[% make_uri('main') %]">[% cs_main_private_page %]</a>. If applicable this will include a link to an invoice page. At the top of the invoice page you will also find a link to a print-friendly version of the invoice (without the site background and menus) which you can print out yourself.
 </en></t>
- 
+
 </p>
 
 </div> <!-- end of content area -->
