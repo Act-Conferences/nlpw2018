@@ -1,6 +1,6 @@
 <div id="sidebar">
 
-
+[% PROCESS texts/sponsor_insert %]
 
 <h2><t><nl>Contact</nl><en>Contact</en></t></h2>
 
