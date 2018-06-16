@@ -41,8 +41,8 @@
 
 <body>
 
-[% PROCESS body_mobile %]
 [% PROCESS body_screen %]
+[% PROCESS body_mobile %]
 
   </body>
 </html>
