@@ -14,11 +14,11 @@ h5 { font-size:  90%; font-weight: bold; padding: 10px 0px 5px 0px; }
 p, ul { line-height: 150%; }
 ul { padding: 0px 0px 0px 15px; }
 
-a:link { color: #048; }
-a:visited { color: #E00; }
+a:link 		{ color: #048; }
+a:visited   { color: #E00; }
 
-.altcolors a:link { color: #0000FF; }
-.altcolors a:visited { color: #4444FF; }
+.altcolors a:link 		{ color: #004488; }
+.altcolors a:visited 	{ color: #2e557d; }
 
 #sidebar h2 { color: #E00; }
 
