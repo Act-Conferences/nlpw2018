@@ -1,5 +1,4 @@
-﻿
-
+﻿[% IF !cs_processed %][% PROCESS custom/strings %][% END %]
 
 <h2><t><de>Workshop: Perl on embedded Devices</de><nl>Workshop: Perl on embedded devices</nl><en>Workshop: Perl on embedded devices</en></t></h2>
 
@@ -15,15 +14,17 @@ This tutorial/workshop will be held on Sunday, 8th of July, 10AM - 4PM, with one
     <p><strong><t>
         <de>Da nur eine begrenzte Anzahl von Plätzen vorhanden sind, ist eine bindende Anmeldung Voraussetzung.<br />
             Des weiteren muss zur Deckung der Betriebskosten und Hardwarebereitstellung<sup>*)</sup> ein Unkostenbeitrag erhoben werden.</de>
-	<nl>Because of limited seats, a binding registration is mandatory. Registration closes at 1st of July<br />
-            Furthermore a registration fee has to be payed to cover operational and hardware<sup>*)</sup> efforts. Be aware, no hardware takeaway included!</nl><en>Because of limited seats, a binding registration is mandatory. <br />
+        <nl>Because of limited seats, a binding registration is mandatory. Registration closes on [% cs_tut_deadline_en %].<br />
+            Furthermore a registration fee has to be payed to cover operational and hardware<sup>*)</sup> efforts. Be aware, no hardware takeaway included!</nl>
+        <en>Because of limited seats, a binding registration is mandatory. Registration closes on [% cs_tut_deadline %].<br />
             Furthermore a registration fee has to be payed to cover operational and hardware<sup>*)</sup> efforts. Be aware, no hardware takeaway included!</en>
     </t></strong></p>
 
 
     <h3><t>
         <de>§9: Wat sull dä Quatsch?</de>
-	<nl>§9: What is it good for?</nl><en>§9: What is it good for?</en>
+	<nl>§9: What is it good for?</nl>
+  <en>§9: What is it good for?</en>
     </t></h3>
 
     <ol>

@@ -36,12 +36,12 @@ Same <a href="[% make_uri('venue.html') %]">venue</a> as the main workshop progr
 </en></t>
 </p>
 
-<h3><t><nl>Deadline: 17 juni</nl><en>Deadline: 17th of June</en></t></h3>
+<h3><t><nl>Deadline: [% cs_tut_deadline %]</nl><en>Deadline: [% cs_tut_deadline %]</en></t></h3>
 <p>
 <t><nl>
-Met name voor de hardware-workshop met embedded devices moet de spreker voorbereidingen treffen. Aanmelding is daarom alleen mogelijk tot <i>uiterlijk 17 juni</i>, maar liefst eerder.
+Met name voor de hardware-workshop met embedded devices moet de spreker voorbereidingen treffen. Aanmelding is daarom alleen mogelijk tot <i>uiterlijk 2 juli</i>, maar liefst eerder.
 </nl><en>
-Especially for the tutorial with embedded devices the speaker needs to make preparations. Therefore registration is only possible <i>until 17th of June at the latest</i>, but preferably earlier.
+Especially for the tutorial with embedded devices the speaker needs to make preparations. Therefore registration is only possible <i>until 2nd of July at the latest</i>, but preferably earlier.
 </en></t>
 </p>
 

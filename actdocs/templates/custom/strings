@@ -52,6 +52,9 @@
     cd_spon_sponsors      = 'Onze sponsors'
 
     cs_dec_sep           = ','
+    
+    cs_tut_deadline       = '1 juli' ,
+    cs_tut_deadline_en    = '1st of July' ,
   %]
 [% ELSE %]
   [%
@@ -97,7 +100,9 @@
 
     cs_menu_users        => 'Who\'s coming?' ,
 
-    cs_dec_sep           = '.'
+    cs_dec_sep           = '.' ,
+    
+    cs_tut_deadline      = '1st of July' ,
   %]
 [% END %]
 [%# page labels %]
