@@ -53,7 +53,8 @@
 
     cs_dec_sep           = ','
     
-    cs_tut_deadline       = '2 juli' ,
+    cs_tut_deadline       = '1 juli' ,
+    cs_tut_deadline_en    = '1st of July' ,
   %]
 [% ELSE %]
   [%
@@ -101,7 +102,7 @@
 
     cs_dec_sep           = '.' ,
     
-    cs_tut_deadline      = '2nd of July' ,
+    cs_tut_deadline      = '1st of July' ,
   %]
 [% END %]
 [%# page labels %]
